@@ -23,6 +23,5 @@ bibliography: docs/references.bib
 format:
   html:
     theme: cosmo
-    mermaid: true
   pdf:
     documentclass: scrreprt

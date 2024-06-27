@@ -11,15 +11,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 In this section, we define the various roles involved in the Value Chain Hackers program.
 
 ## Roles and Responsibilities
-
-```mermaid
-graph TD
-    A[Value Chain Hackers] -->|Leads| B[Project Manager]
-    A -->|Guides| C[Mentor]
-    A -->|Learns| D[Student]
-    B -->|Oversees| E[Team Lead]
-    C -->|Supports| E
-    D -->|Collaborates| E
-    E -->|Reports| B
-    E -->|Works with| D
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
 ```
