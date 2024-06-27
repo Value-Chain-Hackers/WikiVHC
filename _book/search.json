@@ -204,7 +204,27 @@
     "href": "docs/what.html",
     "title": "5  What",
     "section": "",
-    "text": "6 What\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "6 What",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>What</span>"
+    ]
+  },
+  {
+    "objectID": "docs/what.html#what-we-do-at-value-chain-hackers",
+    "href": "docs/what.html#what-we-do-at-value-chain-hackers",
+    "title": "5  What",
+    "section": "6.1 What We Do at Value Chain Hackers",
+    "text": "6.1 What We Do at Value Chain Hackers\n\n6.1.1 Real-World Projects 🌍\nAt Value Chain Hackers, we engage in real-world supply chain projects that address actual industry challenges. These projects provide a practical, hands-on learning experience that goes beyond theoretical knowledge. You’ll work on tasks that have real impact and contribute to meaningful solutions in the supply chain sector.\n\n\n6.1.2 Agile-Scrum Methodology 🛠️\nWe utilize the Agile-Scrum methodology to manage our projects. This approach ensures that our work is structured, iterative, and flexible, allowing us to adapt to changes quickly and efficiently. Here’s a brief overview of the Scrum process:\n\nProduct Backlog: A prioritized list of project tasks and requirements.\nSprint Planning: A collaborative meeting to select tasks for the upcoming sprint.\nSprint Backlog: The list of tasks committed to be completed in the sprint.\nDaily Scrum: A short, daily meeting to synchronize activities and plan the next 24 hours.\nDevelopment Work: The actual work done during the sprint to achieve the sprint goal.\nIncrement: The sum of all completed backlog items during a sprint.\nSprint Review: A meeting at the end of the sprint to inspect the increment and adapt the backlog.\nSprint Retrospective: A meeting to reflect on the sprint process and identify improvements.\n\nFor a detailed breakdown of the Scrum process, refer to the Scrum Process page.\n\n\n6.1.3 Digital Lab and Online Learning 💻\nOur digital lab provides a flexible and accessible learning environment. With tools like Nextcloud, Etherpad, and Jitsi, you’ll collaborate seamlessly with your team, regardless of location. This setup ensures that you can engage with the program while balancing other commitments.\n\n\n6.1.4 AI and Innovation 🤖\nWe integrate AI technologies to enhance our supply chain projects. AI helps in analyzing vast amounts of data, optimizing processes, and predicting future trends. By incorporating AI, we stay at the forefront of innovation and ensure that our solutions are cutting-edge.\n\n\n6.1.5 Continuous Improvement 🔄\nContinuous improvement is a core principle of our methodology. Through regular sprint retrospectives and feedback sessions, we constantly seek ways to enhance our processes and outcomes. This iterative approach ensures that we are always learning and improving.\n\n\n6.1.6 Fun and Engaging Activities 🎉\nWe believe in making the learning experience enjoyable. Throughout the program, we host various activities to keep things lively and engaging. From icebreakers and themed hackathons to social events and team-building exercises, there’s always something fun happening to keep you motivated.\n\n\n6.1.7 Recognition and Rewards 🏆\nYour hard work and achievements are recognized and rewarded. Whether it’s through certificates, internships, or other tangible rewards, we ensure that your contributions are valued. This recognition not only motivates you but also adds to your professional portfolio.\n\n\n6.1.8 Community and Collaboration 🤝\nBuilding a strong community is key to our success. You’ll collaborate with peers, mentors, and industry experts, creating a network of support and shared learning. This community-driven approach fosters a sense of belonging and encourages collective growth.\n\n\n6.1.9 Inspiring Resources 📚\nWe provide a wealth of resources to inspire and inform you. This includes access to industry reports, academic papers, and inspiring videos that explore themes related to supply chains, innovation, and teamwork. Check out these videos to get started:\n\nThe Value of Supply Chain Management: A comprehensive overview of the importance of supply chains in today’s economy. \nThe Power of Data in Supply Chains: How data analytics is transforming the supply chain industry. \nInside the Amazon Warehouse: An inside look at the logistics and operations of Amazon’s fulfillment centers. \nThe Future of AI in Supply Chain Management: Exploring the potential of AI to revolutionize supply chains.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>What</span>"
+    ]
+  },
+  {
+    "objectID": "docs/what.html#conclusion",
+    "href": "docs/what.html#conclusion",
+    "title": "5  What",
+    "section": "6.2 Conclusion",
+    "text": "6.2 Conclusion\nThe Value Chain Hackers program is a comprehensive, engaging, and impactful journey into the world of supply chain management. By integrating real-world projects, Agile-Scrum methodology, AI technologies, and a supportive community, we ensure that you have everything you need to succeed. Let’s make this experience memorable and transformative!\nWelcome to the Value Chain Hackers community! 🚀🌟",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>What</span>"
     ]
@@ -214,7 +234,27 @@
     "href": "docs/tools.html",
     "title": "6  Tools",
     "section": "",
-    "text": "7 Tools\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "7 Tools",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "docs/tools.html#essential-tools-for-value-chain-hackers",
+    "href": "docs/tools.html#essential-tools-for-value-chain-hackers",
+    "title": "6  Tools",
+    "section": "7.1 Essential Tools for Value Chain Hackers",
+    "text": "7.1 Essential Tools for Value Chain Hackers\nIn the Value Chain Hackers program, we leverage a variety of open-source and self-hosted tools to facilitate collaboration, project management, communication, and more. Here’s an overview of the tools you’ll be using:\n\n7.1.1 Communication 📢\n\nNextcloud: An open-source platform for file sharing and collaboration. Use it for sharing documents, managing calendars, and more. Nextcloud\nDiscord: An online communication tool that integrates seamlessly with our digital workspace, perfect for instant messaging and voice/video calls. Discord\n\n\n\n7.1.2 Project Management 🛠️\n\nTaiga: An open-source agile project management platform. Manage tasks, sprints, and backlogs with ease. Taiga\n\n\n\n7.1.3 Collaboration 🤝\n\nEtherpad: An open-source collaborative text editor for real-time document editing. Great for working together on documents. Etherpad\nNextcloud: Also used for file sharing and collaboration. Nextcloud\n\n\n\n7.1.4 Version Control 🔄\n\nGitLab: An open-source Git repository management platform for version control and collaboration. GitLab\nSmartGit: A graphical Git client with support for GitHub, Bitbucket, and GitLab. SmartGit\nGitHub: Another popular open-source Git repository hosting service. GitHub\n\n\n\n7.1.5 Document Creation 📄\n\nLibreOffice: An open-source office suite for creating documents, spreadsheets, and presentations. LibreOffice\nQuarto: A tool for creating dynamic documents from Markdown. Quarto\nZotero: An open-source reference management software for organizing research sources and citations. Zotero\n\n\n\n7.1.6 Virtual Meetings 📹\n\nJitsi: An open-source video conferencing platform for hosting virtual meetings and webinars. Jitsi\nBigBlueButton: An open-source web conferencing system designed for online learning and collaboration. BigBlueButton\n\n\n\n7.1.7 Survey and Feedback 📝\n\nLimeSurvey: An open-source online survey software for creating and conducting surveys and assessments. LimeSurvey\nMoodle: An open-source learning management system for creating online courses and assessments. Moodle\n\n\n\n7.1.8 Learning Management Systems (LMS) 📚\n\nMoodle: Highly customizable and widely used, supporting course management, assessment tools, and collaborative activities. Moodle\nCanvas LMS: Known for its user-friendly interface and support for multimedia content. Canvas LMS\nChamilo: Designed for schools, universities, and corporate training, offering course creation, assessments, communication tools, and reporting. Chamilo\nILIAS: Focused on usability and accessibility, suitable for various educational settings. ILIAS\nOpen edX: Developed by edX, providing tools for creating and delivering online courses, including interactive content and discussion forums. Open edX\nClaroline: Focuses on simplicity and ease of use, suitable for small to medium-sized organizations. Claroline\nATutor: Designed with accessibility in mind, providing features for creating accessible content and adaptive learning. ATutor\n\n\n\n7.1.9 Design and Creativity 🎨\n\nEdraw: A powerful diagramming tool for creating flowcharts, mind maps, and more. Edraw\nPenpot: An open-source design and prototyping platform. Penpot\n\n\n\n7.1.10 Note Taking 📝\n\nEtherpad: A collaborative text editor for real-time document editing. Etherpad\nPrivnote: A tool for creating notes that will self-destruct after being read. Privnote",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "docs/tools.html#conclusion",
+    "href": "docs/tools.html#conclusion",
+    "title": "6  Tools",
+    "section": "7.2 Conclusion",
+    "text": "7.2 Conclusion\nThese tools are essential for the successful execution of your projects within the Value Chain Hackers program. Familiarize yourself with each tool, as they will be integral to your workflow and collaboration efforts. Let’s make the most of these resources to innovate and drive impactful change in the supply chain industry!",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Tools</span>"
     ]
@@ -394,7 +434,7 @@
     "href": "docs/scrum-process.html#why-scrum-is-right-for-this-eu-funding-call",
     "title": "8  Scrum Process",
     "section": "9.6 Why Scrum is Right for This EU Funding Call",
-    "text": "9.6 Why Scrum is Right for This EU Funding Call\n\n9.6.1 1. Alignment with EU’s Innovation Goals\n\n9.6.1.1 Flexibility and Responsiveness to Change\n\nEU Perspective: The European Union emphasizes innovation and adaptability in its funding programs. Agile-Scrum’s iterative cycles are particularly suited to the EU’s objectives of fostering innovative solutions and adapting to emerging trends and technologies. This flexibility ensures that projects remain relevant and can pivot quickly in response to new data or stakeholder feedback.\nSupporting Data: Agile projects are roughly twice as likely to succeed compared to traditional Waterfall projects due to their ability to adapt and respond to changes quickly (Visual Paradigm) (Opensource.com).\n\n\n\n\n9.6.2 2. Efficient Use of Resources\n\n9.6.2.1 Incremental Delivery and Early Value Realization\n\nEU Perspective: The EU aims to maximize the impact of its funding by ensuring that projects deliver value efficiently. Scrum’s incremental delivery ensures that each\n\n```mqfgiblgz graph TD AProduct Backlog –&gt;|Select Items| BSprint Planning B –&gt; CSprint Backlog C –&gt; DDaily Scrum D –&gt; EDevelopment Work E –&gt; FIncrement F –&gt; GSprint Review G –&gt; HSprint Retrospective H –&gt; IProduct Backlog Refinement I –&gt; B\nsubgraph Sprint\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; I\nend\n\nsubgraph Project Initiation\n    A1[Kickoff Meeting] --&gt; A2[Project Charter]\n    A2 --&gt; A3[Communication Plan]\n    A3 --&gt; A4[Project Management Tool Setup]\n    A4 --&gt; A\nend\n\nsubgraph Exploration and Planning Phase\n    B1[Exploration Meetings] --&gt; B2[User Stories]\n    B2 --&gt; B3[User Personas]\n    B3 --&gt; B4[Journey Maps]\n    B4 --&gt; B5[Sprint 0 Planning]\n    B5 --&gt; B6[Product Backlog]\n    B5 --&gt; B7[Definition of Done]\n    B5 --&gt; B8[Sprint Plan]\nend\n\nsubgraph Sprint Execution Phase\n    C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]\n    C2 --&gt; C3[Sprint Goal]\n    C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]\n    C5 --&gt; C6[Issue Log]\n    C7[Sprint Review Meetings] --&gt; C8[Increment]\n    C8 --&gt; C9[Stakeholder Feedback]\n    C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]\n    C11 --&gt; C12[Improvement Plan]\nend\n\nsubgraph Product Development Specifics for WP 3.2\n    D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]\n    D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]\n    D4 --&gt; D5[Smart Contract Documentation]\n    D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]\n    D7 --&gt; D8[UI Mockups]\n    D8 --&gt; D9[Developed UI Components]\n    D10[Integration Planning Meetings] --&gt; D11[Integration Plan]\n    D11 --&gt; D12[Implemented APIs]\nend\n\nsubgraph Quality Assurance and Testing\n    E1[Testing Planning Meetings] --&gt; E2[Test Plans]\n    E2 --&gt; E3[Test Cases]\n    E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]\n    E5 --&gt; E6[Integration Testing Report]\n    E6 --&gt; E7[Performance Testing Report]\n    E7 --&gt; E8[Security Testing Report]\n    E8 --&gt; E9[Compatibility Testing Report]\n    E9 --&gt; E10[Regression Testing Report]\n    E10 --&gt; E11[Load Testing Report]\n    E11 --&gt; E12[Stress Testing Report]\nend\n\nsubgraph Documentation and Training\n    F1[Documentation Workshops] --&gt; F2[System Documentation]\n    F3[Training Sessions] --&gt; F4[Training Materials]\n    F4 --&gt; F5[Training Reports]\n    F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]\nend\n\nsubgraph Continuous Improvement\n    G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]\n    G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]\n    G4 --&gt; G5[User Acceptance Testing]\n    G5 --&gt; G6[Accessibility Testing]\n    G6 --&gt; G7[Localization Testing]\n    G7 --&gt; G8[Beta Testing]\n    G8 --&gt; G9[Compliance Testing]\n    G9 --&gt; G10[A/B Testing]\n    G10 --&gt; G11[Exploratory Testing]\n    G11 --&gt; G12[End-User Testing]\n    G12 --&gt; G13[Scenario-Based Testing]\n    G13 --&gt; G14[GUI Testing]\n    G14 --&gt; G15[Documentation Testing]\n    G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]\nend",
+    "text": "9.6 Why Scrum is Right for This EU Funding Call\n\n9.6.1 1. Alignment with EU’s Innovation Goals\n\n9.6.1.1 Flexibility and Responsiveness to Change\n\nEU Perspective: The European Union emphasizes innovation and adaptability in its funding programs. Agile-Scrum’s iterative cycles are particularly suited to the EU’s objectives of fostering innovative solutions and adapting to emerging trends and technologies. This flexibility ensures that projects remain relevant and can pivot quickly in response to new data or stakeholder feedback.\nSupporting Data: Agile projects are roughly twice as likely to succeed compared to traditional Waterfall projects due to their ability to adapt and respond to changes quickly (Visual Paradigm) (Opensource.com).\n\n\n\n\n9.6.2 2. Efficient Use of Resources\n\n9.6.2.1 Incremental Delivery and Early Value Realization\n\nEU Perspective: The EU aims to maximize the impact of its funding by ensuring that projects deliver value efficiently. Scrum’s incremental delivery ensures that each\n\n```wditfwwvl graph TD AProduct Backlog –&gt;|Select Items| BSprint Planning B –&gt; CSprint Backlog C –&gt; DDaily Scrum D –&gt; EDevelopment Work E –&gt; FIncrement F –&gt; GSprint Review G –&gt; HSprint Retrospective H –&gt; IProduct Backlog Refinement I –&gt; B\nsubgraph Sprint\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; I\nend\n\nsubgraph Project Initiation\n    A1[Kickoff Meeting] --&gt; A2[Project Charter]\n    A2 --&gt; A3[Communication Plan]\n    A3 --&gt; A4[Project Management Tool Setup]\n    A4 --&gt; A\nend\n\nsubgraph Exploration and Planning Phase\n    B1[Exploration Meetings] --&gt; B2[User Stories]\n    B2 --&gt; B3[User Personas]\n    B3 --&gt; B4[Journey Maps]\n    B4 --&gt; B5[Sprint 0 Planning]\n    B5 --&gt; B6[Product Backlog]\n    B5 --&gt; B7[Definition of Done]\n    B5 --&gt; B8[Sprint Plan]\nend\n\nsubgraph Sprint Execution Phase\n    C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]\n    C2 --&gt; C3[Sprint Goal]\n    C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]\n    C5 --&gt; C6[Issue Log]\n    C7[Sprint Review Meetings] --&gt; C8[Increment]\n    C8 --&gt; C9[Stakeholder Feedback]\n    C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]\n    C11 --&gt; C12[Improvement Plan]\nend\n\nsubgraph Product Development Specifics for WP 3.2\n    D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]\n    D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]\n    D4 --&gt; D5[Smart Contract Documentation]\n    D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]\n    D7 --&gt; D8[UI Mockups]\n    D8 --&gt; D9[Developed UI Components]\n    D10[Integration Planning Meetings] --&gt; D11[Integration Plan]\n    D11 --&gt; D12[Implemented APIs]\nend\n\nsubgraph Quality Assurance and Testing\n    E1[Testing Planning Meetings] --&gt; E2[Test Plans]\n    E2 --&gt; E3[Test Cases]\n    E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]\n    E5 --&gt; E6[Integration Testing Report]\n    E6 --&gt; E7[Performance Testing Report]\n    E7 --&gt; E8[Security Testing Report]\n    E8 --&gt; E9[Compatibility Testing Report]\n    E9 --&gt; E10[Regression Testing Report]\n    E10 --&gt; E11[Load Testing Report]\n    E11 --&gt; E12[Stress Testing Report]\nend\n\nsubgraph Documentation and Training\n    F1[Documentation Workshops] --&gt; F2[System Documentation]\n    F3[Training Sessions] --&gt; F4[Training Materials]\n    F4 --&gt; F5[Training Reports]\n    F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]\nend\n\nsubgraph Continuous Improvement\n    G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]\n    G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]\n    G4 --&gt; G5[User Acceptance Testing]\n    G5 --&gt; G6[Accessibility Testing]\n    G6 --&gt; G7[Localization Testing]\n    G7 --&gt; G8[Beta Testing]\n    G8 --&gt; G9[Compliance Testing]\n    G9 --&gt; G10[A/B Testing]\n    G10 --&gt; G11[Exploratory Testing]\n    G11 --&gt; G12[End-User Testing]\n    G12 --&gt; G13[Scenario-Based Testing]\n    G13 --&gt; G14[GUI Testing]\n    G14 --&gt; G15[Documentation Testing]\n    G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]\nend",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
     ]
@@ -404,17 +444,47 @@
     "href": "docs/roles.html",
     "title": "9  Roles",
     "section": "",
-    "text": "10 Roles\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "10 Roles\nIn the Value Chain Hackers program, each participant has a specific role that contributes to the overall success of the projects. Understanding these roles and their responsibilities is crucial for effective collaboration and achieving our goals.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
     ]
   },
   {
-    "objectID": "docs/roles.html#roles-and-responsibilities",
-    "href": "docs/roles.html#roles-and-responsibilities",
+    "objectID": "docs/roles.html#key-roles-and-responsibilities",
+    "href": "docs/roles.html#key-roles-and-responsibilities",
     "title": "9  Roles",
-    "section": "11.1 Roles and Responsibilities",
-    "text": "11.1 Roles and Responsibilities\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]",
+    "section": "10.1 Key Roles and Responsibilities",
+    "text": "10.1 Key Roles and Responsibilities\n\n10.1.1 1. Project Manager 📝\nResponsibilities: - Oversee project planning, execution, and delivery. - Coordinate between different teams and stakeholders. - Ensure that project timelines and goals are met. - Facilitate communication and resolve conflicts within the team. - Conduct regular check-ins and provide updates on project progress.\n\n\n10.1.2 2. Product Owner 🛠️\nResponsibilities: - Define the project vision and objectives. - Maintain and prioritize the product backlog. - Ensure that the team is working on the highest-value tasks. - Collaborate with stakeholders to gather requirements and feedback. - Make decisions regarding the scope and features of the product.\n\n\n10.1.3 3. Scrum Master 📈\nResponsibilities: - Facilitate Scrum ceremonies (Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective). - Remove impediments and obstacles that hinder team progress. - Ensure that the team follows Agile principles and practices. - Coach the team on continuous improvement and self-organization. - Protect the team from external distractions and interruptions.\n\n\n10.1.4 4. Team Member 👩‍💻👨‍💻\nResponsibilities: - Actively participate in all Scrum ceremonies. - Collaborate with other team members to complete tasks and achieve sprint goals. - Deliver high-quality work that meets the Definition of Done. - Continuously seek ways to improve skills and knowledge. - Communicate effectively and openly with the team.\n\n\n10.1.5 5. Mentor 🧑‍🏫\nResponsibilities: - Provide guidance and support to the team members. - Share expertise and knowledge relevant to the project. - Help team members overcome challenges and obstacles. - Offer feedback and suggestions for improvement. - Act as a role model and inspire the team to achieve their best.\n\n\n10.1.6 6. Stakeholder 👥\nResponsibilities: - Provide input and feedback on project requirements and deliverables. - Review progress and outcomes during Sprint Reviews. - Ensure that the project aligns with organizational goals and needs. - Support the team by providing resources and removing barriers. - Engage with the team regularly to stay informed about the project status.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
+    ]
+  },
+  {
+    "objectID": "docs/roles.html#roman-patronage-model",
+    "href": "docs/roles.html#roman-patronage-model",
+    "title": "9  Roles",
+    "section": "10.2 Roman Patronage Model 🏛️",
+    "text": "10.2 Roman Patronage Model 🏛️\nIn our program, we draw inspiration from the Roman patronage model to enhance teacher involvement. Teachers act as patrons, providing students with guidance, resources, and support throughout the project. This model fosters a mentor-mentee relationship, where teachers:\n\nOffer their expertise and experience to guide students.\nHelp students navigate challenges and develop their skills.\nProvide regular feedback and constructive criticism.\nEncourage students to take ownership of their learning and growth.\nCreate a supportive and motivating learning environment.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
+    ]
+  },
+  {
+    "objectID": "docs/roles.html#tracking-projects-in-a-digital-space",
+    "href": "docs/roles.html#tracking-projects-in-a-digital-space",
+    "title": "9  Roles",
+    "section": "10.3 Tracking Projects in a Digital Space 💻",
+    "text": "10.3 Tracking Projects in a Digital Space 💻\nTo ensure transparency and accountability, we use various digital tools to track project progress and facilitate collaboration. These tools include:\n\nTaiga: For project management and task tracking.\nNextcloud: For file sharing and collaboration.\nEtherpad: For real-time document editing and collaboration.\nGitLab: For version control and code collaboration.\nJitsi: For virtual meetings and video conferencing.\n\nBy leveraging these tools, we create a cohesive digital workspace where all team members can stay informed, collaborate effectively, and track their progress in real-time.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
+    ]
+  },
+  {
+    "objectID": "docs/roles.html#conclusion",
+    "href": "docs/roles.html#conclusion",
+    "title": "9  Roles",
+    "section": "10.4 Conclusion",
+    "text": "10.4 Conclusion\nUnderstanding your role and the responsibilities that come with it is essential for the success of our projects. By embracing your role and collaborating with your team, you will contribute to the innovative and impactful solutions we strive to create at Value Chain Hackers. Let’s work together to achieve our goals and make a difference in the supply chain industry!",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
     ]
@@ -424,7 +494,47 @@
     "href": "docs/resources.html",
     "title": "10  Resources",
     "section": "",
-    "text": "11 Resources\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "11 Resources\nIn the Value Chain Hackers program, we provide a wealth of resources to support your learning, development, and project success. These resources include tools, platforms, reading materials, and inspiring videos that will help you thrive in our innovative environment.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#tools-and-platforms",
+    "href": "docs/resources.html#tools-and-platforms",
+    "title": "10  Resources",
+    "section": "11.1 Tools and Platforms",
+    "text": "11.1 Tools and Platforms\n\n11.1.1 Communication 📢\n\nNextcloud: An open-source platform for file sharing and collaboration. Use it for sharing documents, managing calendars, and more. Nextcloud\nDiscord: An online communication tool that integrates seamlessly with our digital workspace, perfect for instant messaging and voice/video calls. Discord\n\n\n\n11.1.2 Project Management 🛠️\n\nTaiga: An open-source agile project management platform. Manage tasks, sprints, and backlogs with ease. Taiga\n\n\n\n11.1.3 Collaboration 🤝\n\nEtherpad: An open-source collaborative text editor for real-time document editing. Great for working together on documents. Etherpad\nNextcloud: Also used for file sharing and collaboration. Nextcloud\n\n\n\n11.1.4 Version Control 🔄\n\nGitLab: An open-source Git repository management platform for version control and collaboration. GitLab\nSmartGit: A graphical Git client with support for GitHub, Bitbucket, and GitLab. SmartGit\nGitHub: Another popular open-source Git repository hosting service. GitHub\n\n\n\n11.1.5 Document Creation 📄\n\nLibreOffice: An open-source office suite for creating documents, spreadsheets, and presentations. LibreOffice\nQuarto: A tool for creating dynamic documents from Markdown. Quarto\nZotero: An open-source reference management software for organizing research sources and citations. Zotero\n\n\n\n11.1.6 Virtual Meetings 📹\n\nJitsi: An open-source video conferencing platform for hosting virtual meetings and webinars. Jitsi\nBigBlueButton: An open-source web conferencing system designed for online learning and collaboration. BigBlueButton\n\n\n\n11.1.7 Survey and Feedback 📝\n\nLimeSurvey: An open-source online survey software for creating and conducting surveys and assessments. LimeSurvey\nMoodle: An open-source learning management system for creating online courses and assessments. Moodle\n\n\n\n11.1.8 Design and Creativity 🎨\n\nEdraw: A powerful diagramming tool for creating flowcharts, mind maps, and more. Edraw\nPenpot: An open-source design and prototyping platform. Penpot\n\n\n\n11.1.9 Note Taking 📝\n\nEtherpad: A collaborative text editor for real-time document editing. Etherpad\nPrivnote: A tool for creating notes that will self-destruct after being read. Privnote",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#reading-materials",
+    "href": "docs/resources.html#reading-materials",
+    "title": "10  Resources",
+    "section": "11.2 Reading Materials 📚",
+    "text": "11.2 Reading Materials 📚\n\nSupply Chain Management: Strategy, Planning, and Operation by Sunil Chopra and Peter Meindl: A comprehensive guide to understanding supply chain management principles and practices.\nThe Goal: A Process of Ongoing Improvement by Eliyahu M. Goldratt and Jeff Cox: A novel that teaches the principles of process improvement in a manufacturing environment.\nLogistics & Supply Chain Management by Martin Christopher: An essential book for understanding the complexities and strategies involved in logistics and supply chain management.\nAI Superpowers: China, Silicon Valley, and the New World Order by Kai-Fu Lee: A book exploring the future of artificial intelligence and its impact on various industries, including supply chains.\nScrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland: An insightful book on the Scrum methodology and how it can be applied to enhance productivity and project management.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#inspiring-videos",
+    "href": "docs/resources.html#inspiring-videos",
+    "title": "10  Resources",
+    "section": "11.3 Inspiring Videos 🎥",
+    "text": "11.3 Inspiring Videos 🎥\n\nHow Wolves Change Rivers: An incredible story about the impact of reintroducing wolves to Yellowstone National Park. \nSimon Sinek: How Great Leaders Inspire Action: A talk on the concept of “Start With Why” and inspiring leadership. \nRSA ANIMATE: Drive: The surprising truth about what motivates us: An animated version of Dan Pink’s talk on motivation. \nThe Power of Vulnerability - Brené Brown: Research on vulnerability and its importance in fostering innovation. \nThe Value of Supply Chain Management: A comprehensive overview of the importance of supply chains in today’s economy. \nThe Power of Data in Supply Chains: How data analytics is transforming the supply chain industry. \nInside the Amazon Warehouse: An inside look at the logistics and operations of Amazon’s fulfillment centers. \nThe Future of AI in Supply Chain Management: Exploring the potential of AI to revolutionize supply chains.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html#conclusion",
+    "href": "docs/resources.html#conclusion",
+    "title": "10  Resources",
+    "section": "11.4 Conclusion",
+    "text": "11.4 Conclusion\nThese resources are designed to support your journey in the Value Chain Hackers program. By utilizing these tools, platforms, reading materials, and videos, you’ll be well-equipped to tackle the challenges and opportunities in supply chain management. Let’s make the most of these resources to innovate and drive impactful change in the supply chain industry!",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
     ]
