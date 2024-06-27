@@ -2,41 +2,111 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": ".",
+    "title": "Value Chain Hackers - Documentation",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "1 Welcome\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "docs/intro.html",
+    "href": "docs/intro.html",
+    "title": "2  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "3 Introduction\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "docs/why.html",
+    "href": "docs/why.html",
+    "title": "3  Why",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "4 Why\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "docs/how.html",
+    "href": "docs/how.html",
+    "title": "4  How",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "5 How\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/what.html",
+    "href": "docs/what.html",
+    "title": "5  What",
+    "section": "",
+    "text": "6 What\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>What</span>"
+    ]
+  },
+  {
+    "objectID": "docs/tools.html",
+    "href": "docs/tools.html",
+    "title": "6  Tools",
+    "section": "",
+    "text": "7 Tools\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html",
+    "href": "docs/student-flow.html",
+    "title": "7  Student Flow",
+    "section": "",
+    "text": "8 Student Flow\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/roles.html",
+    "href": "docs/roles.html",
+    "title": "8  Roles",
+    "section": "",
+    "text": "9 Roles\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html",
+    "href": "docs/resources.html",
+    "title": "9  Resources",
+    "section": "",
+    "text": "10 Resources\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "docs/summary.html",
+    "href": "docs/summary.html",
+    "title": "10  Summary",
+    "section": "",
+    "text": "11 Summary\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "docs/references.html",
+    "href": "docs/references.html",
+    "title": "11  References",
+    "section": "",
+    "text": "12 References\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]
