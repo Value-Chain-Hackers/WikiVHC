@@ -4,4 +4,119 @@ title: "Resources"
 
 # Resources
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+In the Value Chain Hackers program, we provide a wealth of resources to support your learning, development, and project success. These resources include tools, platforms, reading materials, and inspiring videos that will help you thrive in our innovative environment.
+
+## Tools and Platforms
+
+### Communication 📢
+
+- **Nextcloud**: An open-source platform for file sharing and collaboration. Use it for sharing documents, managing calendars, and more.
+  [Nextcloud](https://nextcloud.com/)
+
+- **Discord**: An online communication tool that integrates seamlessly with our digital workspace, perfect for instant messaging and voice/video calls.
+  [Discord](https://discord.com/)
+
+### Project Management 🛠️
+
+- **Taiga**: An open-source agile project management platform. Manage tasks, sprints, and backlogs with ease.
+  [Taiga](https://www.taiga.io/)
+
+### Collaboration 🤝
+
+- **Etherpad**: An open-source collaborative text editor for real-time document editing. Great for working together on documents.
+  [Etherpad](https://etherpad.org/)
+
+- **Nextcloud**: Also used for file sharing and collaboration.
+  [Nextcloud](https://nextcloud.com/)
+
+### Version Control 🔄
+
+- **GitLab**: An open-source Git repository management platform for version control and collaboration.
+  [GitLab](https://about.gitlab.com/)
+
+- **SmartGit**: A graphical Git client with support for GitHub, Bitbucket, and GitLab.
+  [SmartGit](https://www.syntevo.com/smartgit/)
+
+- **GitHub**: Another popular open-source Git repository hosting service.
+  [GitHub](https://github.com/)
+
+### Document Creation 📄
+
+- **LibreOffice**: An open-source office suite for creating documents, spreadsheets, and presentations.
+  [LibreOffice](https://www.libreoffice.org/)
+
+- **Quarto**: A tool for creating dynamic documents from Markdown.
+  [Quarto](https://quarto.org/)
+
+- **Zotero**: An open-source reference management software for organizing research sources and citations.
+  [Zotero](https://www.zotero.org/)
+
+### Virtual Meetings 📹
+
+- **Jitsi**: An open-source video conferencing platform for hosting virtual meetings and webinars.
+  [Jitsi](https://jitsi.org/)
+
+- **BigBlueButton**: An open-source web conferencing system designed for online learning and collaboration.
+  [BigBlueButton](https://bigbluebutton.org/)
+
+### Survey and Feedback 📝
+
+- **LimeSurvey**: An open-source online survey software for creating and conducting surveys and assessments.
+  [LimeSurvey](https://www.limesurvey.org/)
+
+- **Moodle**: An open-source learning management system for creating online courses and assessments.
+  [Moodle](https://moodle.org/)
+
+### Design and Creativity 🎨
+
+- **Edraw**: A powerful diagramming tool for creating flowcharts, mind maps, and more.
+  [Edraw](https://edraw.srv.viridis.info/)
+
+- **Penpot**: An open-source design and prototyping platform.
+  [Penpot](https://penpot.srv.viridis.info/)
+
+### Note Taking 📝
+
+- **Etherpad**: A collaborative text editor for real-time document editing.
+  [Etherpad](https://etherpad.srv.viridis.info/)
+
+- **Privnote**: A tool for creating notes that will self-destruct after being read.
+  [Privnote](https://privnote.srv.viridis.info/)
+
+## Reading Materials 📚
+
+- **Supply Chain Management: Strategy, Planning, and Operation** by Sunil Chopra and Peter Meindl: A comprehensive guide to understanding supply chain management principles and practices.
+- **The Goal: A Process of Ongoing Improvement** by Eliyahu M. Goldratt and Jeff Cox: A novel that teaches the principles of process improvement in a manufacturing environment.
+- **Logistics & Supply Chain Management** by Martin Christopher: An essential book for understanding the complexities and strategies involved in logistics and supply chain management.
+- **AI Superpowers: China, Silicon Valley, and the New World Order** by Kai-Fu Lee: A book exploring the future of artificial intelligence and its impact on various industries, including supply chains.
+- **Scrum: The Art of Doing Twice the Work in Half the Time** by Jeff Sutherland: An insightful book on the Scrum methodology and how it can be applied to enhance productivity and project management.
+
+## Inspiring Videos 🎥
+
+- **How Wolves Change Rivers**: An incredible story about the impact of reintroducing wolves to Yellowstone National Park.
+  [![How Wolves Change Rivers](https://img.youtube.com/vi/W88Sact1kws/0.jpg)](https://www.youtube.com/watch?v=W88Sact1kws)
+
+- **Simon Sinek: How Great Leaders Inspire Action**: A talk on the concept of "Start With Why" and inspiring leadership.
+  [![How Great Leaders Inspire Action](https://img.youtube.com/vi/qp0HIF3SfI4/0.jpg)](https://www.youtube.com/watch?v=qp0HIF3SfI4)
+
+- **RSA ANIMATE: Drive: The surprising truth about what motivates us**: An animated version of Dan Pink's talk on motivation.
+  [![Drive: The surprising truth about what motivates us](https://img.youtube.com/vi/u6XAPnuFjJc/0.jpg)](https://www.youtube.com/watch?v=u6XAPnuFjJc)
+
+- **The Power of Vulnerability - Brené Brown**: Research on vulnerability and its importance in fostering innovation.
+  [![The Power of Vulnerability](https://img.youtube.com/vi/iCvmsMzlF7o/0.jpg)](https://www.youtube.com/watch?v=iCvmsMzlF7o)
+
+- **The Value of Supply Chain Management**: A comprehensive overview of the importance of supply chains in today's economy.
+  [![The Value of Supply Chain Management](https://img.youtube.com/vi/9HD3C5vD3lU/0.jpg)](https://www.youtube.com/watch?v=9HD3C5vD3lU)
+
+- **The Power of Data in Supply Chains**: How data analytics is transforming the supply chain industry.
+  [![The Power of Data in Supply Chains](https://img.youtube.com/vi/U6YbVwX3v0Y/0.jpg)](https://www.youtube.com/watch?v=U6YbVwX3v0Y)
+
+- **Inside the Amazon Warehouse**: An inside look at the logistics and operations of Amazon's fulfillment centers.
+  [![Inside the Amazon Warehouse](https://img.youtube.com/vi/SzdbKz5CyhA/0.jpg)](https://www.youtube.com/watch?v=SzdbKz5CyhA)
+
+- **The Future of AI in Supply Chain Management**: Exploring the potential of AI to revolutionize supply chains.
+  [![The Future of AI in Supply Chain Management](https://img.youtube.com/vi/2WjA8MsN9Bc/0.jpg)](https://www.youtube.com/watch?v=2WjA8MsN9Bc)
+
+## Conclusion
+
+These resources are designed to support your journey in the Value Chain Hackers program. By utilizing these tools, platforms, reading materials, and videos, you'll be well-equipped to tackle the challenges and opportunities in supply chain management. Let's make the most of these resources to innovate and drive impactful change in the supply chain industry!

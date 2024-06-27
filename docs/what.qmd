@@ -4,4 +4,69 @@ title: "What"
 
 # What
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## What We Do at Value Chain Hackers
+
+### Real-World Projects 🌍
+
+At Value Chain Hackers, we engage in real-world supply chain projects that address actual industry challenges. These projects provide a practical, hands-on learning experience that goes beyond theoretical knowledge. You'll work on tasks that have real impact and contribute to meaningful solutions in the supply chain sector.
+
+### Agile-Scrum Methodology 🛠️
+
+We utilize the Agile-Scrum methodology to manage our projects. This approach ensures that our work is structured, iterative, and flexible, allowing us to adapt to changes quickly and efficiently. Here’s a brief overview of the Scrum process:
+
+- **Product Backlog**: A prioritized list of project tasks and requirements.
+- **Sprint Planning**: A collaborative meeting to select tasks for the upcoming sprint.
+- **Sprint Backlog**: The list of tasks committed to be completed in the sprint.
+- **Daily Scrum**: A short, daily meeting to synchronize activities and plan the next 24 hours.
+- **Development Work**: The actual work done during the sprint to achieve the sprint goal.
+- **Increment**: The sum of all completed backlog items during a sprint.
+- **Sprint Review**: A meeting at the end of the sprint to inspect the increment and adapt the backlog.
+- **Sprint Retrospective**: A meeting to reflect on the sprint process and identify improvements.
+
+For a detailed breakdown of the Scrum process, refer to the [Scrum Process](scrum-process.qmd) page.
+
+### Digital Lab and Online Learning 💻
+
+Our digital lab provides a flexible and accessible learning environment. With tools like Nextcloud, Etherpad, and Jitsi, you’ll collaborate seamlessly with your team, regardless of location. This setup ensures that you can engage with the program while balancing other commitments.
+
+### AI and Innovation 🤖
+
+We integrate AI technologies to enhance our supply chain projects. AI helps in analyzing vast amounts of data, optimizing processes, and predicting future trends. By incorporating AI, we stay at the forefront of innovation and ensure that our solutions are cutting-edge.
+
+### Continuous Improvement 🔄
+
+Continuous improvement is a core principle of our methodology. Through regular sprint retrospectives and feedback sessions, we constantly seek ways to enhance our processes and outcomes. This iterative approach ensures that we are always learning and improving.
+
+### Fun and Engaging Activities 🎉
+
+We believe in making the learning experience enjoyable. Throughout the program, we host various activities to keep things lively and engaging. From icebreakers and themed hackathons to social events and team-building exercises, there’s always something fun happening to keep you motivated.
+
+### Recognition and Rewards 🏆
+
+Your hard work and achievements are recognized and rewarded. Whether it's through certificates, internships, or other tangible rewards, we ensure that your contributions are valued. This recognition not only motivates you but also adds to your professional portfolio.
+
+### Community and Collaboration 🤝
+
+Building a strong community is key to our success. You'll collaborate with peers, mentors, and industry experts, creating a network of support and shared learning. This community-driven approach fosters a sense of belonging and encourages collective growth.
+
+### Inspiring Resources 📚
+
+We provide a wealth of resources to inspire and inform you. This includes access to industry reports, academic papers, and inspiring videos that explore themes related to supply chains, innovation, and teamwork. Check out these videos to get started:
+
+- **The Value of Supply Chain Management**: A comprehensive overview of the importance of supply chains in today's economy.
+  [![The Value of Supply Chain Management](https://img.youtube.com/vi/9HD3C5vD3lU/0.jpg)](https://www.youtube.com/watch?v=9HD3C5vD3lU)
+
+- **The Power of Data in Supply Chains**: How data analytics is transforming the supply chain industry.
+  [![The Power of Data in Supply Chains](https://img.youtube.com/vi/U6YbVwX3v0Y/0.jpg)](https://www.youtube.com/watch?v=U6YbVwX3v0Y)
+
+- **Inside the Amazon Warehouse**: An inside look at the logistics and operations of Amazon's fulfillment centers.
+  [![Inside the Amazon Warehouse](https://img.youtube.com/vi/SzdbKz5CyhA/0.jpg)](https://www.youtube.com/watch?v=SzdbKz5CyhA)
+
+- **The Future of AI in Supply Chain Management**: Exploring the potential of AI to revolutionize supply chains.
+  [![The Future of AI in Supply Chain Management](https://img.youtube.com/vi/2WjA8MsN9Bc/0.jpg)](https://www.youtube.com/watch?v=2WjA8MsN9Bc)
+
+## Conclusion
+
+The Value Chain Hackers program is a comprehensive, engaging, and impactful journey into the world of supply chain management. By integrating real-world projects, Agile-Scrum methodology, AI technologies, and a supportive community, we ensure that you have everything you need to succeed. Let's make this experience memorable and transformative!
+
+Welcome to the Value Chain Hackers community! 🚀🌟

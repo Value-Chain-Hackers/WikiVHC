@@ -4,17 +4,86 @@ title: "Roles"
 
 # Roles
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+In the Value Chain Hackers program, each participant has a specific role that contributes to the overall success of the projects. Understanding these roles and their responsibilities is crucial for effective collaboration and achieving our goals.
 
-# Roles
+## Key Roles and Responsibilities
 
-In this section, we define the various roles involved in the Value Chain Hackers program.
+### 1. Project Manager 📝
 
-## Roles and Responsibilities
-```{mermaid}
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
-```
+**Responsibilities:**
+- Oversee project planning, execution, and delivery.
+- Coordinate between different teams and stakeholders.
+- Ensure that project timelines and goals are met.
+- Facilitate communication and resolve conflicts within the team.
+- Conduct regular check-ins and provide updates on project progress.
+
+### 2. Product Owner 🛠️
+
+**Responsibilities:**
+- Define the project vision and objectives.
+- Maintain and prioritize the product backlog.
+- Ensure that the team is working on the highest-value tasks.
+- Collaborate with stakeholders to gather requirements and feedback.
+- Make decisions regarding the scope and features of the product.
+
+### 3. Scrum Master 📈
+
+**Responsibilities:**
+- Facilitate Scrum ceremonies (Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective).
+- Remove impediments and obstacles that hinder team progress.
+- Ensure that the team follows Agile principles and practices.
+- Coach the team on continuous improvement and self-organization.
+- Protect the team from external distractions and interruptions.
+
+### 4. Team Member 👩‍💻👨‍💻
+
+**Responsibilities:**
+- Actively participate in all Scrum ceremonies.
+- Collaborate with other team members to complete tasks and achieve sprint goals.
+- Deliver high-quality work that meets the Definition of Done.
+- Continuously seek ways to improve skills and knowledge.
+- Communicate effectively and openly with the team.
+
+### 5. Mentor 🧑‍🏫
+
+**Responsibilities:**
+- Provide guidance and support to the team members.
+- Share expertise and knowledge relevant to the project.
+- Help team members overcome challenges and obstacles.
+- Offer feedback and suggestions for improvement.
+- Act as a role model and inspire the team to achieve their best.
+
+### 6. Stakeholder 👥
+
+**Responsibilities:**
+- Provide input and feedback on project requirements and deliverables.
+- Review progress and outcomes during Sprint Reviews.
+- Ensure that the project aligns with organizational goals and needs.
+- Support the team by providing resources and removing barriers.
+- Engage with the team regularly to stay informed about the project status.
+
+## Roman Patronage Model 🏛️
+
+In our program, we draw inspiration from the Roman patronage model to enhance teacher involvement. Teachers act as patrons, providing students with guidance, resources, and support throughout the project. This model fosters a mentor-mentee relationship, where teachers:
+
+- Offer their expertise and experience to guide students.
+- Help students navigate challenges and develop their skills.
+- Provide regular feedback and constructive criticism.
+- Encourage students to take ownership of their learning and growth.
+- Create a supportive and motivating learning environment.
+
+## Tracking Projects in a Digital Space 💻
+
+To ensure transparency and accountability, we use various digital tools to track project progress and facilitate collaboration. These tools include:
+
+- **Taiga**: For project management and task tracking.
+- **Nextcloud**: For file sharing and collaboration.
+- **Etherpad**: For real-time document editing and collaboration.
+- **GitLab**: For version control and code collaboration.
+- **Jitsi**: For virtual meetings and video conferencing.
+
+By leveraging these tools, we create a cohesive digital workspace where all team members can stay informed, collaborate effectively, and track their progress in real-time.
+
+## Conclusion
+
+Understanding your role and the responsibilities that come with it is essential for the success of our projects. By embracing your role and collaborating with your team, you will contribute to the innovative and impactful solutions we strive to create at Value Chain Hackers. Let's work together to achieve our goals and make a difference in the supply chain industry!
