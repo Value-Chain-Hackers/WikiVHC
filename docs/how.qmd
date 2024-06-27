@@ -4,4 +4,67 @@ title: "How"
 
 # How
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## How Do We Ensure Our Feedback Is Taken Seriously? 🤔
+
+### Clear Communication 📢
+To ensure our feedback is taken seriously, we prioritize clear and concise communication. We use structured feedback forms and ensure that all comments are actionable and specific. This way, our suggestions are easy to understand and implement.
+
+### Constructive Criticism 🛠️
+We focus on providing constructive criticism that is aimed at helping teams improve. By highlighting strengths along with areas for improvement, we create a balanced feedback environment that encourages growth and development.
+
+### Regular Feedback Sessions 📅
+Regular feedback sessions are scheduled to ensure continuous improvement. These sessions provide an opportunity for open dialogue between students, mentors, and project managers, fostering a culture of trust and collaboration.
+
+## How Can We Make Students Report More Often? 📝
+
+### Streamlined Reporting Tools 🛠️
+We provide easy-to-use reporting tools like Taiga for project management and Nextcloud for document sharing. These tools simplify the reporting process, making it quick and efficient for students to submit their progress updates.
+
+### Gamification 🎮
+To make reporting more engaging, we incorporate gamification elements. Students can earn points and badges for timely and thorough reports, which can be redeemed for rewards or recognition at the end of the semester.
+
+### Regular Check-Ins 🔄
+We schedule regular check-ins to keep students on track. These bi-weekly SCRUM meetings ensure that everyone is aligned with their goals and any issues are addressed promptly.
+
+## How Can We Get Teachers to Act as Coaches in Our Project? 👨‍🏫👩‍🏫
+
+### Roman-Patreon Model 🏛️
+We adopt the Roman-Patreon model, where experienced teachers act as mentors (patrons) to students (protégés). Teachers are matched with students based on their expertise and interests, fostering a supportive mentor-mentee relationship.
+
+### Incentives for Teachers 🎁
+We provide incentives for teachers to participate as coaches. This can include professional development opportunities, recognition in the academic community, and tangible rewards like gift vouchers or certificates of appreciation.
+
+### Collaborative Workshops 🛠️
+We organize collaborative workshops where teachers and students can work together on projects. These workshops provide a platform for teachers to share their knowledge and guide students through practical, hands-on activities.
+
+## How Can We Motivate Students Sufficiently? 🌟
+
+### Engaging Activities 🎉
+We incorporate fun and engaging activities throughout the program. From icebreakers and team-building exercises to themed hackathons and social events, there's always something exciting happening to keep students motivated.
+
+### Recognition and Rewards 🏆
+We recognize and reward students for their hard work and achievements. This includes certificates of achievement, internship opportunities, and gift vouchers for outstanding performance.
+
+### Clear Goals and Milestones 🎯
+We set clear goals and milestones to keep students focused and motivated. By breaking down projects into manageable tasks and celebrating each milestone, we create a sense of progress and accomplishment.
+
+### Supportive Community 🤝
+We foster a supportive community where students feel valued and encouraged. Open communication channels, regular mentorship sessions, and peer support groups help create an environment where everyone can thrive.
+
+## Tracking Projects in a Digital Space 🌐
+
+### Project Management Tools 🛠️
+We use Taiga, an open-source agile project management platform, to manage tasks, sprints, and backlogs. This tool helps students stay organized and track their progress in real-time.
+
+### Collaborative Platforms 👥
+Nextcloud and Etherpad are our go-to tools for collaboration. These platforms allow students to share documents, edit them in real-time, and keep track of changes, ensuring seamless teamwork.
+
+### Regular Updates 📅
+Students are encouraged to provide regular updates on their progress. This can be done through bi-weekly SCRUM meetings, monthly consortium meetings, and real-time updates on our digital platforms.
+
+### Visual Dashboards 📊
+We provide visual dashboards that display project progress, upcoming tasks, and completed milestones. These dashboards make it easy for students to see their achievements and stay motivated.
+
+## Conclusion
+
+By implementing these strategies, we ensure that our feedback is valued, students are engaged and motivated, and projects are effectively tracked in a digital space. Together, we create a dynamic and supportive environment where innovation and collaboration thrive. Let's make this journey exciting and impactful! 🚀

@@ -13,6 +13,7 @@ book:
     - docs/what.qmd
     - docs/tools.qmd
     - docs/student-flow.qmd
+    - docs/scrum-process.qmd
     - docs/roles.qmd
     - docs/resources.qmd
     - docs/summary.qmd
