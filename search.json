@@ -84,7 +84,47 @@
     "href": "docs/why.html",
     "title": "3  Why",
     "section": "",
-    "text": "4 Why\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "4 Why",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
+    ]
+  },
+  {
+    "objectID": "docs/why.html#why-value-chain-hackers",
+    "href": "docs/why.html#why-value-chain-hackers",
+    "title": "3  Why",
+    "section": "4.1 Why Value Chain Hackers",
+    "text": "4.1 Why Value Chain Hackers\nWelcome to Value Chain Hackers! We are on a mission to revolutionize the supply chain industry through innovation, collaboration, and practical application. By providing you with the necessary resources and building strong, agile teams, we ensure that our participants can make meaningful contributions to the field of supply chain management. Together, we’ll tackle the complexities of supply chains and transform challenges into opportunities.\n\n4.1.1 Unleashing Your Potential\nOur program is all about unlocking your potential. We believe that every participant has unique strengths and talents that, when harnessed, can lead to extraordinary results. Through Value Chain Hackers, you’ll have the opportunity to discover and develop your abilities in a supportive and dynamic environment.\n\n\n4.1.2 Real-World Impact\nWe’re not just playing around here—our goal is to make a real difference in the world. The supply chain industry is vast and complex, playing a crucial role in our daily lives. By improving supply chains, we can enhance efficiency, reduce waste, and create more sustainable practices. Your work here can lead to tangible, positive changes in the industry and beyond.\n\n\n4.1.3 Innovation and Creativity\nInnovation is at the heart of everything we do. We encourage you to think outside the box, experiment with new ideas, and push the boundaries of what’s possible. This is your chance to bring fresh perspectives to the table and come up with creative solutions to challenging problems. Let’s have fun with it and see where our imagination can take us!\n\n\n4.1.4 Collaboration and Community\nOne of the best parts of Value Chain Hackers is the sense of community. You’ll be working alongside passionate individuals who are just as excited about supply chain innovation as you are. Together, we’ll build a collaborative environment where ideas can flow freely, and everyone’s contributions are valued. Whether it’s through brainstorming sessions, hackathons, or casual chats over coffee, you’ll find that the power of teamwork can lead to amazing breakthroughs.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
+    ]
+  },
+  {
+    "objectID": "docs/why.html#why-online-learning-digital-lab",
+    "href": "docs/why.html#why-online-learning-digital-lab",
+    "title": "3  Why",
+    "section": "4.2 Why Online Learning & Digital Lab",
+    "text": "4.2 Why Online Learning & Digital Lab\n\n4.2.1 Flexibility and Accessibility\nThe digital lab provides unparalleled flexibility and accessibility. No matter where you are in the world, you can participate in our program. This allows us to bring together a diverse group of individuals, fostering a rich environment of different perspectives and ideas. Online learning means you can fit your participation around other commitments, ensuring you can engage fully without sacrificing other important aspects of your life.\n\n\n4.2.2 Cutting-Edge Tools and Resources\nBy leveraging digital platforms, we provide access to a range of cutting-edge tools and resources. From project management software like Taiga to collaboration tools like Nextcloud and Etherpad, you’ll have everything you need at your fingertips. These tools not only facilitate efficient workflow but also enhance your learning experience.\n\n\n4.2.3 Interactive and Engaging Content\nOur online learning approach is designed to be interactive and engaging. With virtual meetings via Jitsi, real-time document editing, and dynamic feedback systems, you’ll be actively involved in your learning process. This keeps the experience lively and ensures that you’re not just passively consuming information.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
+    ]
+  },
+  {
+    "objectID": "docs/why.html#why-ai-for-supply-chain",
+    "href": "docs/why.html#why-ai-for-supply-chain",
+    "title": "3  Why",
+    "section": "4.3 Why AI for Supply Chain",
+    "text": "4.3 Why AI for Supply Chain\n\n4.3.1 Enhancing Efficiency\nAI has the power to transform supply chains by enhancing efficiency. From predictive analytics to automated decision-making, AI tools can help identify bottlenecks, optimize routes, and forecast demand with greater accuracy. This leads to more efficient operations and significant cost savings.\n\n\n4.3.2 Driving Innovation\nAI is at the forefront of technological innovation. By integrating AI into supply chain management, we open up new possibilities for problem-solving and process improvement. AI can analyze vast amounts of data quickly, providing insights that would be impossible to achieve manually. This drives innovation and helps us stay ahead of industry trends.\n\n\n4.3.3 Improving Sustainability\nAI can also contribute to more sustainable supply chains. By optimizing resources and reducing waste, AI-driven solutions can help companies achieve their sustainability goals. This is increasingly important in a world where environmental considerations are critical to business success.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
+    ]
+  },
+  {
+    "objectID": "docs/why.html#why-scrum-agile-working-methodology",
+    "href": "docs/why.html#why-scrum-agile-working-methodology",
+    "title": "3  Why",
+    "section": "4.4 Why Scrum Agile Working Methodology",
+    "text": "4.4 Why Scrum Agile Working Methodology\n\n4.4.1 Flexibility and Adaptability\nScrum is all about flexibility and adaptability. In a fast-paced industry like supply chain management, the ability to pivot quickly in response to changing conditions is crucial. Scrum provides a framework that allows teams to respond to changes efficiently, ensuring that projects stay on track even when unexpected challenges arise.\n\n\n4.4.2 Enhancing Team Collaboration\nScrum emphasizes teamwork and collaboration. By working in sprints and holding regular stand-up meetings, team members stay aligned and engaged. This fosters a collaborative environment where everyone’s input is valued, and the collective effort leads to better outcomes.\n\n\n4.4.3 Continuous Improvement\nOne of the core principles of Scrum is continuous improvement. Through regular retrospectives, teams reflect on their processes and identify areas for enhancement. This commitment to ongoing improvement ensures that we are always striving to be better, delivering higher quality results with each iteration.\n\n\n4.4.4 Clear Goals and Accountability\nScrum provides clear goals and accountability. Each sprint has specific objectives, and team members know exactly what is expected of them. This clarity helps keep everyone focused and motivated, driving progress and ensuring that we meet our targets effectively.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
     ]
@@ -94,7 +134,67 @@
     "href": "docs/how.html",
     "title": "4  How",
     "section": "",
-    "text": "5 How\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "5 How",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html#how-do-we-ensure-our-feedback-is-taken-seriously",
+    "href": "docs/how.html#how-do-we-ensure-our-feedback-is-taken-seriously",
+    "title": "4  How",
+    "section": "5.1 How Do We Ensure Our Feedback Is Taken Seriously? 🤔",
+    "text": "5.1 How Do We Ensure Our Feedback Is Taken Seriously? 🤔\n\n5.1.1 Clear Communication 📢\nTo ensure our feedback is taken seriously, we prioritize clear and concise communication. We use structured feedback forms and ensure that all comments are actionable and specific. This way, our suggestions are easy to understand and implement.\n\n\n5.1.2 Constructive Criticism 🛠️\nWe focus on providing constructive criticism that is aimed at helping teams improve. By highlighting strengths along with areas for improvement, we create a balanced feedback environment that encourages growth and development.\n\n\n5.1.3 Regular Feedback Sessions 📅\nRegular feedback sessions are scheduled to ensure continuous improvement. These sessions provide an opportunity for open dialogue between students, mentors, and project managers, fostering a culture of trust and collaboration.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html#how-can-we-make-students-report-more-often",
+    "href": "docs/how.html#how-can-we-make-students-report-more-often",
+    "title": "4  How",
+    "section": "5.2 How Can We Make Students Report More Often? 📝",
+    "text": "5.2 How Can We Make Students Report More Often? 📝\n\n5.2.1 Streamlined Reporting Tools 🛠️\nWe provide easy-to-use reporting tools like Taiga for project management and Nextcloud for document sharing. These tools simplify the reporting process, making it quick and efficient for students to submit their progress updates.\n\n\n5.2.2 Gamification 🎮\nTo make reporting more engaging, we incorporate gamification elements. Students can earn points and badges for timely and thorough reports, which can be redeemed for rewards or recognition at the end of the semester.\n\n\n5.2.3 Regular Check-Ins 🔄\nWe schedule regular check-ins to keep students on track. These bi-weekly SCRUM meetings ensure that everyone is aligned with their goals and any issues are addressed promptly.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html#how-can-we-get-teachers-to-act-as-coaches-in-our-project",
+    "href": "docs/how.html#how-can-we-get-teachers-to-act-as-coaches-in-our-project",
+    "title": "4  How",
+    "section": "5.3 How Can We Get Teachers to Act as Coaches in Our Project? 👨‍🏫👩‍🏫",
+    "text": "5.3 How Can We Get Teachers to Act as Coaches in Our Project? 👨‍🏫👩‍🏫\n\n5.3.1 Roman-Patreon Model 🏛️\nWe adopt the Roman-Patreon model, where experienced teachers act as mentors (patrons) to students (protégés). Teachers are matched with students based on their expertise and interests, fostering a supportive mentor-mentee relationship.\n\n\n5.3.2 Incentives for Teachers 🎁\nWe provide incentives for teachers to participate as coaches. This can include professional development opportunities, recognition in the academic community, and tangible rewards like gift vouchers or certificates of appreciation.\n\n\n5.3.3 Collaborative Workshops 🛠️\nWe organize collaborative workshops where teachers and students can work together on projects. These workshops provide a platform for teachers to share their knowledge and guide students through practical, hands-on activities.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html#how-can-we-motivate-students-sufficiently",
+    "href": "docs/how.html#how-can-we-motivate-students-sufficiently",
+    "title": "4  How",
+    "section": "5.4 How Can We Motivate Students Sufficiently? 🌟",
+    "text": "5.4 How Can We Motivate Students Sufficiently? 🌟\n\n5.4.1 Engaging Activities 🎉\nWe incorporate fun and engaging activities throughout the program. From icebreakers and team-building exercises to themed hackathons and social events, there’s always something exciting happening to keep students motivated.\n\n\n5.4.2 Recognition and Rewards 🏆\nWe recognize and reward students for their hard work and achievements. This includes certificates of achievement, internship opportunities, and gift vouchers for outstanding performance.\n\n\n5.4.3 Clear Goals and Milestones 🎯\nWe set clear goals and milestones to keep students focused and motivated. By breaking down projects into manageable tasks and celebrating each milestone, we create a sense of progress and accomplishment.\n\n\n5.4.4 Supportive Community 🤝\nWe foster a supportive community where students feel valued and encouraged. Open communication channels, regular mentorship sessions, and peer support groups help create an environment where everyone can thrive.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html#tracking-projects-in-a-digital-space",
+    "href": "docs/how.html#tracking-projects-in-a-digital-space",
+    "title": "4  How",
+    "section": "5.5 Tracking Projects in a Digital Space 🌐",
+    "text": "5.5 Tracking Projects in a Digital Space 🌐\n\n5.5.1 Project Management Tools 🛠️\nWe use Taiga, an open-source agile project management platform, to manage tasks, sprints, and backlogs. This tool helps students stay organized and track their progress in real-time.\n\n\n5.5.2 Collaborative Platforms 👥\nNextcloud and Etherpad are our go-to tools for collaboration. These platforms allow students to share documents, edit them in real-time, and keep track of changes, ensuring seamless teamwork.\n\n\n5.5.3 Regular Updates 📅\nStudents are encouraged to provide regular updates on their progress. This can be done through bi-weekly SCRUM meetings, monthly consortium meetings, and real-time updates on our digital platforms.\n\n\n5.5.4 Visual Dashboards 📊\nWe provide visual dashboards that display project progress, upcoming tasks, and completed milestones. These dashboards make it easy for students to see their achievements and stay motivated.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html#conclusion",
+    "href": "docs/how.html#conclusion",
+    "title": "4  How",
+    "section": "5.6 Conclusion",
+    "text": "5.6 Conclusion\nBy implementing these strategies, we ensure that our feedback is valued, students are engaged and motivated, and projects are effectively tracked in a digital space. Together, we create a dynamic and supportive environment where innovation and collaboration thrive. Let’s make this journey exciting and impactful! 🚀",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
     ]
@@ -124,59 +224,229 @@
     "href": "docs/student-flow.html",
     "title": "7  Student Flow",
     "section": "",
-    "text": "8 Student Flow\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "8 Student Flow\nWelcome to the Value Chain Hackers program! Here’s a detailed flow of your journey through the semester, designed to ensure you get the most out of this experience. Let’s dive in! 🌊",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
     ]
   },
   {
+    "objectID": "docs/student-flow.html#kick-off-hackathon",
+    "href": "docs/student-flow.html#kick-off-hackathon",
+    "title": "7  Student Flow",
+    "section": "8.1 1. Kick-off Hackathon 🚀",
+    "text": "8.1 1. Kick-off Hackathon 🚀\n\n8.1.1 Meet Your Team 🤝\n\nObjective: Get to know your teammates, mentors, and project managers.\nActivities: Icebreakers, team-building exercises, and brainstorming sessions.\nOutcome: Establish initial commitments and project goals.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#project-initialization",
+    "href": "docs/student-flow.html#project-initialization",
+    "title": "7  Student Flow",
+    "section": "8.2 2. Project Initialization 🛠️",
+    "text": "8.2 2. Project Initialization 🛠️\n\n8.2.1 Set Up Your Tools 🧰\n\nObjective: Ensure you have access to all necessary tools.\nTools: Taiga for project management, GitLab for version control, Nextcloud for file sharing, Jitsi for virtual meetings, and Etherpad for real-time collaboration.\nOutcome: Familiarize yourself with the tools and their functionalities.\n\n\n\n8.2.2 Initial Planning 🗓️\n\nObjective: Plan your project and define the scope.\nActivities: Create a project roadmap, assign tasks, and set deadlines.\nOutcome: A clear project plan with defined milestones.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#bi-weekly-scrum-meetings",
+    "href": "docs/student-flow.html#bi-weekly-scrum-meetings",
+    "title": "7  Student Flow",
+    "section": "8.3 3. Bi-Weekly SCRUM Meetings 🔄",
+    "text": "8.3 3. Bi-Weekly SCRUM Meetings 🔄\n\n8.3.1 Regular Check-ins 🗣️\n\nObjective: Discuss progress, tackle challenges, and ensure alignment with project goals.\nActivities: Stand-up meetings, progress reports, and problem-solving sessions.\nOutcome: Stay on track and address any issues promptly.\n\nRefer to the Scrum Process for more details on the key components and cycle of SCRUM.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#ongoing-mentorship-and-support",
+    "href": "docs/student-flow.html#ongoing-mentorship-and-support",
+    "title": "7  Student Flow",
+    "section": "8.4 4. Ongoing Mentorship and Support 👨‍🏫👩‍🏫",
+    "text": "8.4 4. Ongoing Mentorship and Support 👨‍🏫👩‍🏫\n\n8.4.1 Mentor Sessions 💬\n\nObjective: Receive guidance and support from experienced mentors.\nActivities: One-on-one meetings, feedback sessions, and collaborative problem-solving.\nOutcome: Gain valuable insights and improve your project continuously.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#monthly-cohesion-meetings",
+    "href": "docs/student-flow.html#monthly-cohesion-meetings",
+    "title": "7  Student Flow",
+    "section": "8.5 5. Monthly Cohesion Meetings 🌐",
+    "text": "8.5 5. Monthly Cohesion Meetings 🌐\n\n8.5.1 Strengthen Teamwork 🤜🤛\n\nObjective: Strengthen the bond within your team and address any issues.\nActivities: Team-building exercises, open discussions, and collaborative activities.\nOutcome: Enhanced teamwork and a supportive team environment.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#consortium-meetings",
+    "href": "docs/student-flow.html#consortium-meetings",
+    "title": "7  Student Flow",
+    "section": "8.6 6. Consortium Meetings 📊",
+    "text": "8.6 6. Consortium Meetings 📊\n\n8.6.1 Share Progress and Exchange Ideas 💡\n\nObjective: Share your progress with external stakeholders and receive feedback.\nActivities: Presentations, Q&A sessions, and collaborative discussions.\nOutcome: Valuable feedback and new ideas to improve your project.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#quarterly-status-updates",
+    "href": "docs/student-flow.html#quarterly-status-updates",
+    "title": "7  Student Flow",
+    "section": "8.7 7. Quarterly Status Updates 📅",
+    "text": "8.7 7. Quarterly Status Updates 📅\n\n8.7.1 Assess and Prepare 📈\n\nObjective: Assess your progress and prepare for upcoming milestones.\nActivities: Status update meetings, milestone reviews, and planning sessions.\nOutcome: Stay aligned with project goals and prepare for key presentations.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#semester-closing",
+    "href": "docs/student-flow.html#semester-closing",
+    "title": "7  Student Flow",
+    "section": "8.8 8. Semester Closing 🎓",
+    "text": "8.8 8. Semester Closing 🎓\n\n8.8.1 Final Presentations 🗣️\n\nObjective: Present your work, findings, and recommendations.\nActivities: Formal presentations, Q&A sessions, and feedback discussions.\nOutcome: Showcase your achievements and receive recognition for your hard work.\n\n\n\n8.8.2 Celebration and Networking 🎉\n\nObjective: Celebrate your achievements and network with peers, mentors, and industry professionals.\nActivities: Dinner, drinks, and social events.\nOutcome: Build lasting connections and celebrate the end of a successful semester.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#continuous-improvement",
+    "href": "docs/student-flow.html#continuous-improvement",
+    "title": "7  Student Flow",
+    "section": "8.9 9. Continuous Improvement 🔄",
+    "text": "8.9 9. Continuous Improvement 🔄\n\n8.9.1 Reflect and Improve 🌟\n\nObjective: Reflect on your experiences and identify areas for improvement.\nActivities: Retrospective meetings, feedback sessions, and personal reflections.\nOutcome: Learn from your experiences and prepare for future challenges.\n\nRefer to the Scrum Process to understand the continuous improvement mechanisms embedded in the SCRUM methodology.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html#conclusion",
+    "href": "docs/student-flow.html#conclusion",
+    "title": "7  Student Flow",
+    "section": "8.10 Conclusion",
+    "text": "8.10 Conclusion\nYour journey through the Value Chain Hackers program is designed to be dynamic, engaging, and impactful. By following this flow, you’ll gain valuable skills, make meaningful contributions, and have a fantastic time along the way. Let’s embark on this exciting journey together! 🚀🌟",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html",
+    "href": "docs/scrum-process.html",
+    "title": "8  Scrum Process",
+    "section": "",
+    "text": "9 Scrum Process",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html#key-components-of-scrum",
+    "href": "docs/scrum-process.html#key-components-of-scrum",
+    "title": "8  Scrum Process",
+    "section": "9.1 Key Components of Scrum",
+    "text": "9.1 Key Components of Scrum\n\n\n\n\n\ngraph TD\n    A[Product Backlog] --&gt;|Select Items| B[Sprint Planning]\n    B --&gt; C[Sprint Backlog]\n    C --&gt; D[Daily Scrum]\n    D --&gt; E[Development Work]\n    E --&gt; F[Increment]\n    F --&gt; G[Sprint Review]\n    G --&gt; H[Sprint Retrospective]\n    H --&gt; I[Product Backlog Refinement]\n    I --&gt; B\n\n    subgraph Sprint\n        C --&gt; D\n        D --&gt; E\n        E --&gt; F\n        F --&gt; G\n        G --&gt; H\n        H --&gt; I\n    end\n\n    subgraph Project Initiation\n        A1[Kickoff Meeting] --&gt; A2[Project Charter]\n        A2 --&gt; A3[Communication Plan]\n        A3 --&gt; A4[Project Management Tool Setup]\n        A4 --&gt; A\n    end\n\n    subgraph Exploration and Planning Phase\n        B1[Exploration Meetings] --&gt; B2[User Stories]\n        B2 --&gt; B3[User Personas]\n        B3 --&gt; B4[Journey Maps]\n        B4 --&gt; B5[Sprint 0 Planning]\n        B5 --&gt; B6[Product Backlog]\n        B5 --&gt; B7[Definition of Done]\n        B5 --&gt; B8[Sprint Plan]\n    end\n\n    subgraph Sprint Execution Phase\n        C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]\n        C2 --&gt; C3[Sprint Goal]\n        C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]\n        C5 --&gt; C6[Issue Log]\n        C7[Sprint Review Meetings] --&gt; C8[Increment]\n        C8 --&gt; C9[Stakeholder Feedback]\n        C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]\n        C11 --&gt; C12[Improvement Plan]\n    end\n\n    subgraph Product Development Specifics for WP 3.2\n        D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]\n        D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]\n        D4 --&gt; D5[Smart Contract Documentation]\n        D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]\n        D7 --&gt; D8[UI Mockups]\n        D8 --&gt; D9[Developed UI Components]\n        D10[Integration Planning Meetings] --&gt; D11[Integration Plan]\n        D11 --&gt; D12[Implemented APIs]\n    end\n\n    subgraph Quality Assurance and Testing\n        E1[Testing Planning Meetings] --&gt; E2[Test Plans]\n        E2 --&gt; E3[Test Cases]\n        E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]\n        E5 --&gt; E6[Integration Testing Report]\n        E6 --&gt; E7[Performance Testing Report]\n        E7 --&gt; E8[Security Testing Report]\n        E8 --&gt; E9[Compatibility Testing Report]\n        E9 --&gt; E10[Regression Testing Report]\n        E10 --&gt; E11[Load Testing Report]\n        E11 --&gt; E12[Stress Testing Report]\n    end\n\n    subgraph Documentation and Training\n        F1[Documentation Workshops] --&gt; F2[System Documentation]\n        F3[Training Sessions] --&gt; F4[Training Materials]\n        F4 --&gt; F5[Training Reports]\n        F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]\n    end\n\n    subgraph Continuous Improvement\n        G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]\n        G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]\n        G4 --&gt; G5[User Acceptance Testing]\n        G5 --&gt; G6[Accessibility Testing]\n        G6 --&gt; G7[Localization Testing]\n        G7 --&gt; G8[Beta Testing]\n        G8 --&gt; G9[Compliance Testing]\n        G9 --&gt; G10[A/B Testing]\n        G10 --&gt; G11[Exploratory Testing]\n        G11 --&gt; G12[End-User Testing]\n        G12 --&gt; G13[Scenario-Based Testing]\n        G13 --&gt; G14[GUI Testing]\n        G14 --&gt; G15[Documentation Testing]\n        G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]\n    end\n\n\n\n\n\n\n```\n\n9.1.1 Product Backlog\nThe Product Backlog is an ordered list of everything that might be needed in the product and is the single source of requirements for any changes to be made to the product. The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.\n\n\n9.1.2 Sprint Planning\nSprint Planning is a collaborative meeting where the Scrum Team discusses what can be delivered in the upcoming sprint and how that work will be achieved. The team selects items from the Product Backlog to include in the Sprint Backlog, sets a sprint goal, and creates a plan to accomplish the work.\n\n\n9.1.3 Sprint Backlog\nThe Sprint Backlog is a list of tasks that the Scrum Team commits to completing during the sprint. It is derived from the Product Backlog and includes the sprint goal and the tasks needed to achieve that goal.\n\n\n9.1.4 Daily Scrum\nThe Daily Scrum is a short, time-boxed meeting (usually 15 minutes) where the team synchronizes activities and creates a plan for the next 24 hours. Each team member answers three questions: What did I do yesterday? What will I do today? Are there any impediments in my way?\n\n\n9.1.5 Development Work\nDuring the sprint, the Scrum Team works on the tasks in the Sprint Backlog to create a potentially shippable product increment. The team self-organizes to achieve the sprint goal.\n\n\n9.1.6 Increment\nAn Increment is the sum of all the Product Backlog items completed during a sprint and all previous sprints. The Increment must be in usable condition regardless of whether the Product Owner decides to release it.\n\n\n9.1.7 Sprint Review\nThe Sprint Review is held at the end of the sprint to inspect the increment and adapt the Product Backlog if needed. The Scrum Team and stakeholders discuss what was accomplished during the sprint and what could be done next to optimize value.\n\n\n9.1.8 Sprint Retrospective\nThe Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next sprint. This meeting focuses on the process, tools, and relationships.\n\n\n9.1.9 Product Backlog Refinement\nProduct Backlog Refinement is the ongoing process of reviewing and amending the Product Backlog. The Product Owner and the Scrum Team collaborate to ensure that the backlog is refined and ready for future sprints.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html#scrum-cycle",
+    "href": "docs/scrum-process.html#scrum-cycle",
+    "title": "8  Scrum Process",
+    "section": "9.2 Scrum Cycle",
+    "text": "9.2 Scrum Cycle\n\n9.2.1 Start with the Product Backlog\nThe Product Owner maintains and prioritizes the Product Backlog based on stakeholder input and business value.\n\n\n9.2.2 Sprint Planning\nThe Scrum Team selects items from the Product Backlog for the Sprint Backlog, defines the sprint goal, and plans how to accomplish the work.\n\n\n9.2.3 Daily Scrum Meetings\nThe team meets daily to synchronize efforts, identify impediments, and adjust plans as needed.\n\n\n9.2.4 Development Work\nThe team works on tasks in the Sprint Backlog, aiming to create a potentially shippable product increment.\n\n\n9.2.5 Sprint Review\nAt the end of the sprint, the team reviews the increment with stakeholders and adapts the Product Backlog based on feedback.\n\n\n9.2.6 Sprint Retrospective\nThe team reflects on the sprint process, identifies improvements, and plans for the next sprint.\n\n\n9.2.7 Repeat\nThe cycle repeats with the next Sprint Planning meeting, building upon the continuous improvements identified in the Sprint Retrospective.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html#why",
+    "href": "docs/scrum-process.html#why",
+    "title": "8  Scrum Process",
+    "section": "9.3 Why",
+    "text": "9.3 Why\nThe European Union (EU) emphasizes innovation, efficiency, and high-quality outputs in its funding programs. In rapidly evolving sectors like social impact investing, traditional linear project management approaches such as the Waterfall model often fall short due to their inflexibility and delayed response to changes. Agile-Scrum, with its iterative cycles, continuous stakeholder engagement, and focus on delivering incremental value, aligns perfectly with the EU’s goals of fostering innovative solutions, maximizing resource efficiency, and maintaining high standards of project outcomes.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html#how",
+    "href": "docs/scrum-process.html#how",
+    "title": "8  Scrum Process",
+    "section": "9.4 How",
+    "text": "9.4 How\nAgile-Scrum achieves these objectives through its dynamic and responsive framework. By utilizing short, iterative development cycles (sprints), Agile-Scrum allows for regular feedback and adaptation, ensuring that projects remain relevant and aligned with current stakeholder needs. This empirical process control model emphasizes inspection, adaptation, and transparency, enabling teams to pivot and refine their trajectory based on actual project data and stakeholder feedback. Continuous stakeholder involvement through regular sprint reviews and planning meetings fosters transparency and collaborative engagement, reducing rework and enhancing project alignment. Additionally, Agile-Scrum integrates continuous testing and regular retrospectives into each sprint, ensuring ongoing quality assurance and continuous improvement, which are crucial for maintaining high standards and delivering robust and reliable final products.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html#what",
+    "href": "docs/scrum-process.html#what",
+    "title": "8  Scrum Process",
+    "section": "9.5 What",
+    "text": "9.5 What\nBy adopting Agile-Scrum, EU-funded projects can significantly increase their success rates and efficiency. Agile methodologies are roughly twice as likely to succeed compared to traditional Waterfall projects, largely due to their adaptability and responsiveness to change. They also reduce costs and deliver projects faster by addressing issues incrementally and ensuring continuous alignment with stakeholder needs. Furthermore, continuous stakeholder involvement and collaboration foster a participatory governance model, aligning with the EU’s principles. Finally, Agile-Scrum’s focus on regular retrospectives and iterative testing ensures that projects meet the EU’s commitment to excellence and innovation, reducing the likelihood of late-stage failures and enhancing overall project quality. This comprehensive approach not only aligns with the EU’s strategic goals but also maximizes the impact and efficiency of its funding.\n\n9.5.1 1. Flexibility and Responsiveness to Change\n\n9.5.1.1 Dynamic Market Needs\n\nTraditional Approach: The Waterfall model, commonly used in traditional EU-funded projects, involves a linear and sequential development process. While it allows for thorough initial planning, it is often inflexible to changes once the project is underway. This rigidity can be detrimental in rapidly evolving sectors like social impact investing, where stakeholder needs and regulatory landscapes are continually shifting.\nAgile-Scrum: Agile methodologies, particularly Scrum, are designed to handle change. Scrum’s iterative cycles (sprints) allow the project to incorporate feedback and adapt to new requirements regularly. This continuous adaptability ensures that the final product remains relevant and valuable to stakeholders.\n\n\n\n9.5.1.2 Empirical Process Control\n\nTraditional Approach: Relies on a detailed upfront specification and planning, which assumes that all requirements are known from the start. This assumption often leads to scope creep or the need for extensive changes as new insights emerge.\nAgile-Scrum: Uses an empirical process control model, which emphasizes inspection, adaptation, and transparency. By regularly reviewing progress and making adjustments based on actual project data and stakeholder feedback, Agile-Scrum ensures that the project can pivot and refine its trajectory as needed.\n\n\n\n\n9.5.2 2. Incremental Delivery and Early Value Realization\n\n9.5.2.1 Incremental Value Delivery\n\nTraditional Approach: Often, deliverables in traditional projects are only produced towards the end of the project lifecycle. This delay can result in a longer time before stakeholders see any tangible benefits, which can be particularly problematic if initial assumptions prove incorrect.\nAgile-Scrum: Emphasizes incremental delivery of product increments at the end of each sprint. This approach not only allows stakeholders to see early and continuous value but also provides regular opportunities for feedback, ensuring the project remains aligned with stakeholder needs.\n\n\n\n9.5.2.2 Risk Mitigation\n\nTraditional Approach: Risk is often identified and managed through extensive planning phases, but unforeseen issues may not become apparent until later stages.\nAgile-Scrum: By delivering work in small, manageable increments and continuously integrating and testing components, potential risks and issues are identified and addressed early. This proactive approach significantly reduces the likelihood of critical issues arising late in the project.\n\n\n\n\n9.5.3 3. Enhanced Stakeholder Collaboration and Communication\n\n9.5.3.1 Engagement and Transparency\n\nTraditional Approach: Stakeholder engagement typically occurs at predetermined milestones, which may lead to gaps in communication and misalignment with stakeholder expectations.\nAgile-Scrum: Involves stakeholders throughout the project lifecycle through regular sprint reviews and planning meetings. This frequent interaction ensures transparency, fosters trust, and keeps stakeholders engaged and informed about the project’s progress and challenges.\n\n\n\n9.5.3.2 Collaborative Environment\n\nTraditional Approach: Often promotes siloed work environments where teams may work independently on different project phases.\nAgile-Scrum: Encourages a collaborative, cross-functional team environment. Teams work together throughout all project phases, enhancing communication, knowledge sharing, and collective ownership of the project outcomes.\n\n\n\n\n9.5.4 4. Continuous Improvement and Quality Focus\n\n9.5.4.1 Iterative Quality Assurance\n\nTraditional Approach: Quality assurance is typically a distinct phase near the end of the project, which can lead to the discovery of critical issues late in the development process.\nAgile-Scrum: Integrates continuous testing and quality assurance into each sprint. This ongoing focus on quality ensures that issues are detected and resolved promptly, leading to a more robust and reliable final product.\n\n\n\n9.5.4.2 Retrospective Culture\n\nTraditional Approach: Project evaluations and lessons learned sessions are usually conducted at the project’s conclusion, which may be too late to benefit the current project.\nAgile-Scrum: Incorporates regular sprint retrospectives, allowing the team to reflect on their processes, identify areas for improvement, and implement changes in subsequent sprints. This culture of continuous improvement enhances team performance and project outcomes over time.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
+    "objectID": "docs/scrum-process.html#why-scrum-is-right-for-this-eu-funding-call",
+    "href": "docs/scrum-process.html#why-scrum-is-right-for-this-eu-funding-call",
+    "title": "8  Scrum Process",
+    "section": "9.6 Why Scrum is Right for This EU Funding Call",
+    "text": "9.6 Why Scrum is Right for This EU Funding Call\n\n9.6.1 1. Alignment with EU’s Innovation Goals\n\n9.6.1.1 Flexibility and Responsiveness to Change\n\nEU Perspective: The European Union emphasizes innovation and adaptability in its funding programs. Agile-Scrum’s iterative cycles are particularly suited to the EU’s objectives of fostering innovative solutions and adapting to emerging trends and technologies. This flexibility ensures that projects remain relevant and can pivot quickly in response to new data or stakeholder feedback.\nSupporting Data: Agile projects are roughly twice as likely to succeed compared to traditional Waterfall projects due to their ability to adapt and respond to changes quickly (Visual Paradigm) (Opensource.com).\n\n\n\n\n9.6.2 2. Efficient Use of Resources\n\n9.6.2.1 Incremental Delivery and Early Value Realization\n\nEU Perspective: The EU aims to maximize the impact of its funding by ensuring that projects deliver value efficiently. Scrum’s incremental delivery ensures that each\n\n```mqfgiblgz graph TD AProduct Backlog –&gt;|Select Items| BSprint Planning B –&gt; CSprint Backlog C –&gt; DDaily Scrum D –&gt; EDevelopment Work E –&gt; FIncrement F –&gt; GSprint Review G –&gt; HSprint Retrospective H –&gt; IProduct Backlog Refinement I –&gt; B\nsubgraph Sprint\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; I\nend\n\nsubgraph Project Initiation\n    A1[Kickoff Meeting] --&gt; A2[Project Charter]\n    A2 --&gt; A3[Communication Plan]\n    A3 --&gt; A4[Project Management Tool Setup]\n    A4 --&gt; A\nend\n\nsubgraph Exploration and Planning Phase\n    B1[Exploration Meetings] --&gt; B2[User Stories]\n    B2 --&gt; B3[User Personas]\n    B3 --&gt; B4[Journey Maps]\n    B4 --&gt; B5[Sprint 0 Planning]\n    B5 --&gt; B6[Product Backlog]\n    B5 --&gt; B7[Definition of Done]\n    B5 --&gt; B8[Sprint Plan]\nend\n\nsubgraph Sprint Execution Phase\n    C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]\n    C2 --&gt; C3[Sprint Goal]\n    C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]\n    C5 --&gt; C6[Issue Log]\n    C7[Sprint Review Meetings] --&gt; C8[Increment]\n    C8 --&gt; C9[Stakeholder Feedback]\n    C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]\n    C11 --&gt; C12[Improvement Plan]\nend\n\nsubgraph Product Development Specifics for WP 3.2\n    D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]\n    D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]\n    D4 --&gt; D5[Smart Contract Documentation]\n    D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]\n    D7 --&gt; D8[UI Mockups]\n    D8 --&gt; D9[Developed UI Components]\n    D10[Integration Planning Meetings] --&gt; D11[Integration Plan]\n    D11 --&gt; D12[Implemented APIs]\nend\n\nsubgraph Quality Assurance and Testing\n    E1[Testing Planning Meetings] --&gt; E2[Test Plans]\n    E2 --&gt; E3[Test Cases]\n    E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]\n    E5 --&gt; E6[Integration Testing Report]\n    E6 --&gt; E7[Performance Testing Report]\n    E7 --&gt; E8[Security Testing Report]\n    E8 --&gt; E9[Compatibility Testing Report]\n    E9 --&gt; E10[Regression Testing Report]\n    E10 --&gt; E11[Load Testing Report]\n    E11 --&gt; E12[Stress Testing Report]\nend\n\nsubgraph Documentation and Training\n    F1[Documentation Workshops] --&gt; F2[System Documentation]\n    F3[Training Sessions] --&gt; F4[Training Materials]\n    F4 --&gt; F5[Training Reports]\n    F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]\nend\n\nsubgraph Continuous Improvement\n    G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]\n    G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]\n    G4 --&gt; G5[User Acceptance Testing]\n    G5 --&gt; G6[Accessibility Testing]\n    G6 --&gt; G7[Localization Testing]\n    G7 --&gt; G8[Beta Testing]\n    G8 --&gt; G9[Compliance Testing]\n    G9 --&gt; G10[A/B Testing]\n    G10 --&gt; G11[Exploratory Testing]\n    G11 --&gt; G12[End-User Testing]\n    G12 --&gt; G13[Scenario-Based Testing]\n    G13 --&gt; G14[GUI Testing]\n    G14 --&gt; G15[Documentation Testing]\n    G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]\nend",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Scrum Process</span>"
+    ]
+  },
+  {
     "objectID": "docs/roles.html",
     "href": "docs/roles.html",
-    "title": "8  Roles",
+    "title": "9  Roles",
     "section": "",
-    "text": "9 Roles\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "10 Roles\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
     ]
   },
   {
     "objectID": "docs/roles.html#roles-and-responsibilities",
     "href": "docs/roles.html#roles-and-responsibilities",
-    "title": "8  Roles",
-    "section": "10.1 Roles and Responsibilities",
-    "text": "10.1 Roles and Responsibilities\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]",
+    "title": "9  Roles",
+    "section": "11.1 Roles and Responsibilities",
+    "text": "11.1 Roles and Responsibilities\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Roles</span>"
     ]
   },
   {
     "objectID": "docs/resources.html",
     "href": "docs/resources.html",
-    "title": "9  Resources",
+    "title": "10  Resources",
     "section": "",
-    "text": "10 Resources\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "11 Resources\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "docs/summary.html",
     "href": "docs/summary.html",
-    "title": "10  Summary",
+    "title": "11  Summary",
     "section": "",
-    "text": "11 Summary\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "12 Summary\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
     "objectID": "docs/references.html",
     "href": "docs/references.html",
-    "title": "11  References",
+    "title": "12  References",
     "section": "",
-    "text": "12 References\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "13 References\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>References</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]
