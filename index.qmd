@@ -4,4 +4,41 @@ title: "Welcome to Value Chain Hackers"
 
 # Welcome
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hello and a warm welcome to the Value Chain Hackers onboarding documentation! I'm Christiaan Verhoef, your guide, mentor, and fellow enthusiast in this exciting journey. Whether you're a student, mentor, or project manager, this guide is here to provide you with all the tools and insights you need to thrive in our vibrant community.
+
+## Our Mission
+
+At Value Chain Hackers, we are on a mission to revolutionize the supply chain industry through relentless innovation, spirited collaboration, and hands-on practical application. We believe in empowering each individual to make meaningful contributions that drive real-world impact. Together, we will tackle the complexities of supply chains and transform challenges into opportunities.
+
+## What to Expect
+
+Over the next 16 weeks, you'll dive into an immersive program designed to challenge your skills, broaden your horizons, and foster strong team dynamics. Here's a glimpse of what lies ahead:
+
+- **Kick-off Hackathon**: Begin with an exhilarating one-day hackathon where you'll meet your team, brainstorm groundbreaking ideas, and set the stage for an unforgettable semester.
+- **Bi-Weekly SCRUM Meetings**: Engage in regular check-ins to discuss progress, overcome obstacles, and ensure we are all aligned with our project goals.
+- **Mentorship and Support**: Gain from the wisdom and experience of our dedicated mentors, who will act as your patrons, guiding you every step of the way.
+- **Hands-On Projects**: Work on real-world supply chain problems, applying your skills and creativity to develop innovative solutions that make a difference.
+- **Celebration and Recognition**: Conclude the semester with a grand closing ceremony where you'll showcase your findings, share your experiences, and celebrate your achievements together.
+
+## Getting Started
+
+1. **Read the Documentation**: Dive into the program structure, roles, and responsibilities by reading through this comprehensive documentation.
+2. **Join Our Communication Channels**: Connect with your peers and mentors on Discord and stay updated with official announcements via Nextcloud.
+3. **Set Up Your Tools**: Ensure you have access to all necessary tools, including Taiga for project management, GitLab for version control, and Jitsi for virtual meetings.
+4. **Participate Actively**: Immerse yourself in all scheduled activities, contribute to discussions, and collaborate with your team to maximize this learning experience.
+
+## Contact Information
+
+If you have any questions or need assistance, don't hesitate to reach out:
+
+- **Email**: [cg.verhoef@windesheim.nl](mailto:cg.verhoef@windesheim.nl)
+- **Discord**: Join our server [here](https://discord.gg/zzA7YSsY)
+
+## Conclusion
+
+We are thrilled to have you on board and cannot wait to witness the amazing things you'll achieve as part of the Value Chain Hackers program. Together, let's embark on this transformative journey and make a lasting impact in the world of supply chain management!
+
+Welcome to the team!
+
+Christiaan Verhoef  
+Value Chain Hackers Leader

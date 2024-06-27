@@ -4,7 +4,57 @@
     "href": "index.html",
     "title": "Value Chain Hackers - Documentation",
     "section": "",
-    "text": "1 Welcome\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "1 Welcome\nHello and a warm welcome to the Value Chain Hackers onboarding documentation! I’m Christiaan Verhoef, your guide, mentor, and fellow enthusiast in this exciting journey. Whether you’re a student, mentor, or project manager, this guide is here to provide you with all the tools and insights you need to thrive in our vibrant community.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#our-mission",
+    "href": "index.html#our-mission",
+    "title": "Value Chain Hackers - Documentation",
+    "section": "1.1 Our Mission",
+    "text": "1.1 Our Mission\nAt Value Chain Hackers, we are on a mission to revolutionize the supply chain industry through relentless innovation, spirited collaboration, and hands-on practical application. We believe in empowering each individual to make meaningful contributions that drive real-world impact. Together, we will tackle the complexities of supply chains and transform challenges into opportunities.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#what-to-expect",
+    "href": "index.html#what-to-expect",
+    "title": "Value Chain Hackers - Documentation",
+    "section": "1.2 What to Expect",
+    "text": "1.2 What to Expect\nOver the next 16 weeks, you’ll dive into an immersive program designed to challenge your skills, broaden your horizons, and foster strong team dynamics. Here’s a glimpse of what lies ahead:\n\nKick-off Hackathon: Begin with an exhilarating one-day hackathon where you’ll meet your team, brainstorm groundbreaking ideas, and set the stage for an unforgettable semester.\nBi-Weekly SCRUM Meetings: Engage in regular check-ins to discuss progress, overcome obstacles, and ensure we are all aligned with our project goals.\nMentorship and Support: Gain from the wisdom and experience of our dedicated mentors, who will act as your patrons, guiding you every step of the way.\nHands-On Projects: Work on real-world supply chain problems, applying your skills and creativity to develop innovative solutions that make a difference.\nCelebration and Recognition: Conclude the semester with a grand closing ceremony where you’ll showcase your findings, share your experiences, and celebrate your achievements together.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Value Chain Hackers - Documentation",
+    "section": "1.3 Getting Started",
+    "text": "1.3 Getting Started\n\nRead the Documentation: Dive into the program structure, roles, and responsibilities by reading through this comprehensive documentation.\nJoin Our Communication Channels: Connect with your peers and mentors on Discord and stay updated with official announcements via Nextcloud.\nSet Up Your Tools: Ensure you have access to all necessary tools, including Taiga for project management, GitLab for version control, and Jitsi for virtual meetings.\nParticipate Actively: Immerse yourself in all scheduled activities, contribute to discussions, and collaborate with your team to maximize this learning experience.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Value Chain Hackers - Documentation",
+    "section": "1.4 Contact Information",
+    "text": "1.4 Contact Information\nIf you have any questions or need assistance, don’t hesitate to reach out:\n\nEmail: cg.verhoef@windesheim.nl\nDiscord: Join our server here",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#conclusion",
+    "href": "index.html#conclusion",
+    "title": "Value Chain Hackers - Documentation",
+    "section": "1.5 Conclusion",
+    "text": "1.5 Conclusion\nWe are thrilled to have you on board and cannot wait to witness the amazing things you’ll achieve as part of the Value Chain Hackers program. Together, let’s embark on this transformative journey and make a lasting impact in the world of supply chain management!\nWelcome to the team!\nChristiaan Verhoef\nValue Chain Hackers Leader",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
     ]
@@ -14,7 +64,17 @@
     "href": "docs/intro.html",
     "title": "2  Introduction",
     "section": "",
-    "text": "3 Introduction\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "3 Introduction\nWelcome to the Value Chain Hackers! In this program, you will embark on an exciting journey to revolutionize the supply chain industry through innovation, collaboration, and practical application. Our goal is to equip you with the tools, knowledge, and support you need to make meaningful contributions and drive real-world impact.\nThroughout this program, you’ll be challenged to think critically, work collaboratively, and apply your skills to solve complex supply chain problems. You’ll have the opportunity to learn from experienced mentors, engage with industry experts, and collaborate with peers who share your passion for innovation.\nGet ready to dive into a dynamic and immersive experience that will push your boundaries, expand your horizons, and prepare you to become a leader in the supply chain industry. Together, we’ll transform challenges into opportunities and create a brighter future for supply chain management.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "docs/intro.html#inspiring-videos",
+    "href": "docs/intro.html#inspiring-videos",
+    "title": "2  Introduction",
+    "section": "3.1 Inspiring Videos",
+    "text": "3.1 Inspiring Videos\nTo kickstart your journey, here are some inspiring videos that explore themes related to supply chains, innovation, and teamwork. These videos highlight the power of creativity, resilience, and collaboration in overcoming challenges and achieving success:\n\n3.1.1 How Wolves Change Rivers\nAn incredible story about how the reintroduction of wolves to Yellowstone National Park changed the entire ecosystem, illustrating the powerful impact of a single change in a system.\n\n\n\nHow Wolves Change Rivers\n\n\n\n\n3.1.2 Simon Sinek: How Great Leaders Inspire Action\nSimon Sinek discusses the concept of “Start With Why” and how leaders inspire action by focusing on their purpose and values.\n\n\n\nHow Great Leaders Inspire Action\n\n\n\n\n3.1.3 RSA ANIMATE: Drive: The surprising truth about what motivates us\nAn animated version of Dan Pink’s talk on motivation, exploring the science behind what drives us to work harder and be more creative.\n\n\n\nDrive: The surprising truth about what motivates us\n\n\n\n\n3.1.4 The Power of Vulnerability - Brené Brown\nBrené Brown shares her research on vulnerability, highlighting its importance in fostering innovation, creativity, and change.\n\n\n\nThe Power of Vulnerability\n\n\nThese videos will not only inspire you but also provide valuable insights into innovation, resilience, and the power of teamwork. Enjoy watching them as you embark on your Value Chain Hackers journey!\nLet’s get started!",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -84,7 +144,7 @@
     "href": "docs/roles.html#roles-and-responsibilities",
     "title": "8  Roles",
     "section": "10.1 Roles and Responsibilities",
-    "text": "10.1 Roles and Responsibilities\ngraph TD\n    A[Value Chain Hackers] --&gt;|Leads| B[Project Manager]\n    A --&gt;|Guides| C[Mentor]\n    A --&gt;|Learns| D[Student]\n    B --&gt;|Oversees| E[Team Lead]\n    C --&gt;|Supports| E\n    D --&gt;|Collaborates| E\n    E --&gt;|Reports| B\n    E --&gt;|Works with| D",
+    "text": "10.1 Roles and Responsibilities\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
     ]

@@ -4,4 +4,36 @@ title: "Introduction"
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Welcome to the Value Chain Hackers! In this program, you will embark on an exciting journey to revolutionize the supply chain industry through innovation, collaboration, and practical application. Our goal is to equip you with the tools, knowledge, and support you need to make meaningful contributions and drive real-world impact.
+
+Throughout this program, you'll be challenged to think critically, work collaboratively, and apply your skills to solve complex supply chain problems. You'll have the opportunity to learn from experienced mentors, engage with industry experts, and collaborate with peers who share your passion for innovation.
+
+Get ready to dive into a dynamic and immersive experience that will push your boundaries, expand your horizons, and prepare you to become a leader in the supply chain industry. Together, we'll transform challenges into opportunities and create a brighter future for supply chain management.
+
+## Inspiring Videos
+
+To kickstart your journey, here are some inspiring videos that explore themes related to supply chains, innovation, and teamwork. These videos highlight the power of creativity, resilience, and collaboration in overcoming challenges and achieving success:
+
+### How Wolves Change Rivers
+An incredible story about how the reintroduction of wolves to Yellowstone National Park changed the entire ecosystem, illustrating the powerful impact of a single change in a system.
+
+[![How Wolves Change Rivers](https://img.youtube.com/vi/ysa5OBhXz-Q/0.jpg)](https://www.youtube.com/watch?v=ysa5OBhXz-Q)
+
+### Simon Sinek: How Great Leaders Inspire Action
+Simon Sinek discusses the concept of "Start With Why" and how leaders inspire action by focusing on their purpose and values.
+
+[![How Great Leaders Inspire Action](https://img.youtube.com/vi/qp0HIF3SfI4/0.jpg)](https://www.youtube.com/watch?v=qp0HIF3SfI4)
+
+### RSA ANIMATE: Drive: The surprising truth about what motivates us
+An animated version of Dan Pink's talk on motivation, exploring the science behind what drives us to work harder and be more creative.
+
+[![Drive: The surprising truth about what motivates us](https://img.youtube.com/vi/u6XAPnuFjJc/0.jpg)](https://www.youtube.com/watch?v=u6XAPnuFjJc)
+
+### The Power of Vulnerability - Brené Brown
+Brené Brown shares her research on vulnerability, highlighting its importance in fostering innovation, creativity, and change.
+
+[![The Power of Vulnerability](https://img.youtube.com/vi/iCvmsMzlF7o/0.jpg)](https://www.youtube.com/watch?v=iCvmsMzlF7o)
+
+These videos will not only inspire you but also provide valuable insights into innovation, resilience, and the power of teamwork. Enjoy watching them as you embark on your Value Chain Hackers journey!
+
+Let's get started!

@@ -1,1 +1,65 @@
+# Quarto book render output
+_site/
+_book/
+docs/
+
+# Quarto cache files
+.quarto/
+
+# R related files
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj.user
+*.Rproj
+
+# Python related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode files
+.vscode/
+.vscode/*
+.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output files
+*.html
+*.pdf
+*.docx
+*.pptx
+*.rtf
+*.md
+
+# Dependency directories
+node_modules/
+lib/
+bin/
+
+# Quarto-specific files
+*.qmd
+
 /.quarto/
