@@ -72,7 +72,7 @@
   {
     "objectID": "docs/roles.html",
     "href": "docs/roles.html",
-    "title": "Roles",
+    "title": "8  Roles",
     "section": "",
     "text": "9 Roles\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "crumbs": [
@@ -82,7 +82,7 @@
   {
     "objectID": "docs/roles.html#roles-and-responsibilities",
     "href": "docs/roles.html#roles-and-responsibilities",
-    "title": "Roles",
+    "title": "8  Roles",
     "section": "10.1 Roles and Responsibilities",
     "text": "10.1 Roles and Responsibilities\ngraph TD\n    A[Value Chain Hackers] --&gt;|Leads| B[Project Manager]\n    A --&gt;|Guides| C[Mentor]\n    A --&gt;|Learns| D[Student]\n    B --&gt;|Oversees| E[Team Lead]\n    C --&gt;|Supports| E\n    D --&gt;|Collaborates| E\n    E --&gt;|Reports| B\n    E --&gt;|Works with| D",
     "crumbs": [
