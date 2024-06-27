@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Value Chain Hackers - Documentation"
+  author: "Christiaan Verhoef"
+  date: "27/06/2024"
+  chapters:
+    - index.qmd
+    - docs/intro.qmd
+    - docs/why.qmd
+    - docs/how.qmd
+    - docs/what.qmd
+    - docs/tools.qmd
+    - docs/student-flow.qmd
+    - docs/roles.qmd
+    - docs/resources.qmd
+    - docs/summary.qmd
+    - docs/references.qmd
+
+bibliography: docs/references.bib
+
+format:
+  html:
+    theme: cosmo
+    mermaid: true
+  pdf:
+    documentclass: scrreprt

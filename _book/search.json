@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Value Chain Hackers - Documentation",
+    "section": "",
+    "text": "1 Welcome\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to Value Chain Hackers</span>"
+    ]
+  },
+  {
+    "objectID": "docs/intro.html",
+    "href": "docs/intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "3 Introduction\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "docs/why.html",
+    "href": "docs/why.html",
+    "title": "3  Why",
+    "section": "",
+    "text": "4 Why\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Why</span>"
+    ]
+  },
+  {
+    "objectID": "docs/how.html",
+    "href": "docs/how.html",
+    "title": "4  How",
+    "section": "",
+    "text": "5 How\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How</span>"
+    ]
+  },
+  {
+    "objectID": "docs/what.html",
+    "href": "docs/what.html",
+    "title": "5  What",
+    "section": "",
+    "text": "6 What\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>What</span>"
+    ]
+  },
+  {
+    "objectID": "docs/tools.html",
+    "href": "docs/tools.html",
+    "title": "6  Tools",
+    "section": "",
+    "text": "7 Tools\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "docs/student-flow.html",
+    "href": "docs/student-flow.html",
+    "title": "7  Student Flow",
+    "section": "",
+    "text": "8 Student Flow\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Student Flow</span>"
+    ]
+  },
+  {
+    "objectID": "docs/roles.html",
+    "href": "docs/roles.html",
+    "title": "8  Roles",
+    "section": "",
+    "text": "9 Roles\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
+    ]
+  },
+  {
+    "objectID": "docs/roles.html#roles-and-responsibilities",
+    "href": "docs/roles.html#roles-and-responsibilities",
+    "title": "8  Roles",
+    "section": "10.1 Roles and Responsibilities",
+    "text": "10.1 Roles and Responsibilities\ngraph TD\n    A[Value Chain Hackers] --&gt;|Leads| B[Project Manager]\n    A --&gt;|Guides| C[Mentor]\n    A --&gt;|Learns| D[Student]\n    B --&gt;|Oversees| E[Team Lead]\n    C --&gt;|Supports| E\n    D --&gt;|Collaborates| E\n    E --&gt;|Reports| B\n    E --&gt;|Works with| D",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
+    ]
+  },
+  {
+    "objectID": "docs/resources.html",
+    "href": "docs/resources.html",
+    "title": "9  Resources",
+    "section": "",
+    "text": "10 Resources\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "docs/summary.html",
+    "href": "docs/summary.html",
+    "title": "10  Summary",
+    "section": "",
+    "text": "11 Summary\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "docs/references.html",
+    "href": "docs/references.html",
+    "title": "11  References",
+    "section": "",
+    "text": "12 References\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]
