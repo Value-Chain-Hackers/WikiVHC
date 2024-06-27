@@ -183,6 +183,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#roles" id="toc-roles" class="nav-link active" data-scroll-target="#roles"><span class="header-section-number">9</span> Roles</a></li>
+  <li><a href="#roles-1" id="toc-roles-1" class="nav-link" data-scroll-target="#roles-1"><span class="header-section-number">10</span> Roles</a>
+  <ul class="collapse">
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities"><span class="header-section-number">10.1</span> Roles and Responsibilities</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -191,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Roles</span></h1>
+<h1 class="title">Roles</h1>
 </div>
 
 
@@ -211,8 +215,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="roles" class="level1" data-number="9">
 <h1 data-number="9"><span class="header-section-number">9</span> Roles</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+<section id="roles-1" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Roles</h1>
+<p>In this section, we define the various roles involved in the Value Chain Hackers program.</p>
+<section id="roles-and-responsibilities" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="roles-and-responsibilities"><span class="header-section-number">10.1</span> Roles and Responsibilities</h2>
+<pre class="mermaid"><code>graph TD
+    A[Value Chain Hackers] --&gt;|Leads| B[Project Manager]
+    A --&gt;|Guides| C[Mentor]
+    A --&gt;|Learns| D[Student]
+    B --&gt;|Oversees| E[Team Lead]
+    C --&gt;|Supports| E
+    D --&gt;|Collaborates| E
+    E --&gt;|Reports| B
+    E --&gt;|Works with| D</code></pre>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
