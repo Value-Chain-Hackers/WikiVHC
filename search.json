@@ -84,7 +84,7 @@
     "href": "docs/roles.html#roles-and-responsibilities",
     "title": "8  Roles",
     "section": "10.1 Roles and Responsibilities",
-    "text": "10.1 Roles and Responsibilities\ngraph TD\n    A[Value Chain Hackers] --&gt;|Leads| B[Project Manager]\n    A --&gt;|Guides| C[Mentor]\n    A --&gt;|Learns| D[Student]\n    B --&gt;|Oversees| E[Team Lead]\n    C --&gt;|Supports| E\n    D --&gt;|Collaborates| E\n    E --&gt;|Reports| B\n    E --&gt;|Works with| D",
+    "text": "10.1 Roles and Responsibilities\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Roles</span>"
     ]

@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -221,15 +224,22 @@ ul.task-list li input[type="checkbox"] {
 <p>In this section, we define the various roles involved in the Value Chain Hackers program.</p>
 <section id="roles-and-responsibilities" class="level2" data-number="10.1">
 <h2 data-number="10.1" class="anchored" data-anchor-id="roles-and-responsibilities"><span class="header-section-number">10.1</span> Roles and Responsibilities</h2>
-<pre class="mermaid"><code>graph TD
-    A[Value Chain Hackers] --&gt;|Leads| B[Project Manager]
-    A --&gt;|Guides| C[Mentor]
-    A --&gt;|Learns| D[Student]
-    B --&gt;|Oversees| E[Team Lead]
-    C --&gt;|Supports| E
-    D --&gt;|Collaborates| E
-    E --&gt;|Reports| B
-    E --&gt;|Works with| D</code></pre>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>
