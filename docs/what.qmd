@@ -2,8 +2,6 @@
 title: "What"
 ---
 
-# What
-
 ## What We Do at Value Chain Hackers
 
 ### Real-World Projects 🌍

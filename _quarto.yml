@@ -12,11 +12,13 @@ book:
     - docs/how.qmd
     - docs/what.qmd
     - docs/tools.qmd
+    - docs/ai/index.qmd
     - docs/student-flow.qmd
     - docs/scrum-process.qmd
     - docs/roles.qmd
     - docs/resources.qmd
     - docs/summary.qmd
+    - docs/presentations/presentations.qmd
     - docs/references.qmd
 
 bibliography: docs/references.bib
