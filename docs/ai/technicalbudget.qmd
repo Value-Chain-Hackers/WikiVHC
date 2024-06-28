@@ -1,0 +1,202 @@
+---
+title: "Cost-Effective Server Setup for AI Models in Supply Chain Mapping"
+---
+
+# Cost-Effective Server Setup for AI Models in Supply Chain Mapping
+
+## Introduction
+# Hardware Requirements for Running AI Models
+
+## GPUs (Graphics Processing Units)
+
+**Importance:** GPUs are essential for the heavy computational tasks required by AI models. They handle parallel processing much better than CPUs.
+
+**Top Picks:**
+- **NVIDIA GeForce RTX 4090 (24GB VRAM):** This is the top consumer-grade GPU for AI, providing excellent performance for large language models and deep learning tasks. It can handle high output quality and large context windows, making it ideal for intensive AI workloads [Source](https://techtactician.com/best-gpus-for-local-llms-in-2024).
+- **NVIDIA A100 and H100:** Used in large-scale AI infrastructures like Meta’s, these GPUs are designed for high throughput and efficiency in AI training and inference [Source](https://engineering.fb.com/2024/01/01/ai-research/generative-ai-infrastructure/).
+- **Dual GPU Setups:** For models like Mixtral 8x7B, dual RTX 3090 or RTX 4090 setups are recommended to achieve high performance without CPU offloading [Source](https://www.hardware-corner.net/mixtral-llm-hardware-requirements/).
+
+**Why NVIDIA?**
+- **CUDA Support:** NVIDIA GPUs are favored due to their CUDA support, which is essential for many AI frameworks and applications. This makes them more efficient and easier to use compared to AMD GPUs [Source](https://techtactician.com/best-gpus-for-local-llms-in-2024).
+
+## CPUs (Central Processing Units)
+
+**Importance:** While GPUs handle the bulk of the processing, CPUs are crucial for managing data preprocessing, orchestration, and tasks that GPUs are less suited for.
+
+**Recommended CPUs:**
+- **Intel Xeon W and AMD Threadripper Pro:** These CPUs are preferred for their high core counts and the ability to support multiple GPUs due to their extensive PCIe lanes. They also offer excellent memory performance, which is vital for AI workloads [Source](https://www.pugetsystems.com/recommendations/hardware-recommendations-for-machine-learning/).
+
+**Core Requirements:**
+- At least 16 cores for balanced performance with multiple GPUs. For more CPU-intensive tasks, 32 or even 64 cores might be necessary [Source](https://www.pugetsystems.com/recommendations/hardware-recommendations-for-machine-learning/).
+
+## RAM (Random Access Memory)
+
+**Importance:** Adequate RAM is crucial for holding large datasets and model parameters during processing.
+
+**Recommendations:**
+- **Minimum 32GB:** Suitable for smaller models and lighter workloads.
+- **64GB to 128GB:** Recommended for more intensive tasks and larger datasets. High RAM capacity ensures smooth operation without bottlenecks [Source](https://www.hardware-corner.net/mixtral-llm-hardware-requirements/) [Source](https://www.pugetsystems.com/recommendations/hardware-recommendations-for-machine-learning/).
+
+## Storage
+
+**Importance:** Fast and reliable storage is necessary for handling large datasets and quick data access.
+
+**Recommendations:**
+- **NVMe SSDs:** These offer the fastest read/write speeds, which significantly reduce data loading times. High-capacity SSDs are essential for large-scale AI projects [Source](https://engineering.fb.com/2024/01/01/ai-research/generative-ai-infrastructure/).
+
+## Power Supply Unit (PSU)
+
+**Importance:** Ensures stable and sufficient power to all components, especially when using multiple high-performance GPUs.
+
+**Recommendation:**
+- **1000W or Higher:** A high-wattage PSU is necessary to support the power demands of GPUs and CPUs under heavy load [Source](https://www.windowscentral.com/best-pcs-for-ai-and-machine-learning).
+
+## Motherboard
+
+**Importance:** Connects all components and ensures compatibility and efficient communication.
+
+**Recommendations:**
+- **Support for Multiple GPUs:** Choose a motherboard with adequate PCIe slots and support for multiple GPUs. This ensures that you can fully utilize your GPU setup without performance bottlenecks [Source](https://www.pugetsystems.com/recommendations/hardware-recommendations-for-machine-learning/).
+
+## Networking
+
+**Importance:** Essential for distributed computing and large data transfers, particularly in cloud-based AI environments.
+
+**Recommendations:**
+- **High-speed Ethernet:** Necessary for fast data transfer and efficient handling of large-scale AI workloads. For extremely high performance, consider Infiniband solutions [Source](https://engineering.fb.com/2024/01/01/ai-research/generative-ai-infrastructure/).
+
+
+Configuration 1: Optimized High-End AI Training Server
+Purpose:
+Designed for large-scale AI training tasks within the budget.
+
+1. CPU:
+
+Model: AMD Ryzen Threadripper PRO 5975WX
+Cores/Threads: 32 cores / 64 threads
+Price: €3,500
+2. GPU:
+
+Model: NVIDIA RTX 4090
+Quantity: 2 GPUs
+VRAM: 24GB per GPU
+Price: €1,800 each (Total: €3,600)
+
+3. RAM:
+
+Capacity: 256GB DDR4 ECC
+Price: €1,200
+
+4. Storage:
+
+Primary: 2TB NVMe SSD (for OS and software)
+Price: €300
+Secondary: 8TB NVMe SSD (for dataset storage and fast access)
+Price: €1,200
+
+5. Power Supply:
+
+Wattage: 2000W Platinum-rated PSU
+Price: €400
+
+6. Motherboard:
+
+Model: ASUS Pro WS WRX80E-SAGE SE WIFI
+Price: €1,000
+
+7. Networking:
+
+Ethernet: Dual 10Gb Ethernet ports
+Price: €300
+
+8. Cooling:
+
+Type: Custom liquid cooling
+Price: €500
+
+9. Chassis:
+
+Model: Fractal Design Define 7 XL
+Price: €200
+Total Cost: €12,200
+
+Configuration 2: Optimized Mid-Range AI Development Server
+Purpose:
+Ideal for small to medium enterprises and academic institutions focusing on AI development and moderate training tasks.
+
+1. CPU:
+
+Model: Intel Xeon W-3345
+Cores/Threads: 24 cores / 48 threads
+Price: €3,000
+2. GPU:
+
+Model: NVIDIA RTX 4080
+Quantity: 2 GPUs
+VRAM: 16GB per GPU
+Price: €1,400 each (Total: €2,800)
+
+3. RAM:
+
+Capacity: 256GB DDR4 ECC
+Price: €1,200
+
+4. Storage:
+
+Primary: 1TB NVMe SSD (for OS and software)
+Price: €150
+Secondary: 4TB NVMe SSD (for dataset storage and fast access)
+Price: €600
+
+5. Power Supply:
+
+Wattage: 1500W Gold-rated PSU
+Price: €300
+
+6. Motherboard:
+
+Model: ASUS WS C621E Sage
+Price: €700
+7. Networking:
+
+Ethernet: Single 10Gb Ethernet port
+Price: €150
+
+8. Cooling:
+
+Type: High-performance air cooling
+Price: €200
+
+9. Chassis:
+
+Model: Fractal Design Define 7 XL
+Price: €200
+Total Cost: €9,300
+
+These optimized configurations should fit within the specified budget range, providing powerful setups for running advanced AI models.
+
+Configuration 1: Optimized High-End AI Training Server
+CPU: AMD Ryzen Threadripper PRO 5975WX - €3,500
+GPU: 2 x NVIDIA RTX 4090 (24GB) - €3,600
+RAM: 256GB DDR4 ECC - €1,200
+Primary Storage: 2TB NVMe SSD - €300
+Secondary Storage: 8TB NVMe SSD - €1,200
+Power Supply: 2000W Platinum-rated PSU - €400
+Motherboard: ASUS Pro WS WRX80E-SAGE SE WIFI - €1,000
+Networking: Dual 10Gb Ethernet ports - €300
+Cooling: Custom liquid cooling - €500
+Chassis: Fractal Design Define 7 XL - €200
+Total Cost: €12,200
+
+Configuration 2: Optimized Mid-Range AI Development Server
+CPU: Intel Xeon W-3345 - €3,000
+GPU: 2 x NVIDIA RTX 4080 (16GB) - €2,800
+RAM: 256GB DDR4 ECC - €1,200
+Primary Storage: 1TB NVMe SSD - €150
+Secondary Storage: 4TB NVMe SSD - €600
+Power Supply: 1500W Gold-rated PSU - €300
+Motherboard: ASUS WS C621E Sage - €700
+Networking: Single 10Gb Ethernet port - €150
+Cooling: High-performance air cooling - €200
+Chassis: Fractal Design Define 7 XL - €200
+Total Cost: €9,300 

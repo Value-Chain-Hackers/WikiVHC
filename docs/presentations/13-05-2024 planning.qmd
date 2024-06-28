@@ -1,0 +1,121 @@
+---
+title: "Sprint planning"
+author: "Christiaan Verhoef"
+date: "13-06-2024"
+format: revealjs
+---
+
+#### Sprint 1: Basic Ontology Setup and Initial Data Integration
+
+**Sprint Goal A**: 
+- Establish the foundation for the Power Dynamics Ecosystem visualization.
+
+##### Sub-Goals A:
+
+**Define Key Supply Chain Elements**:
+- [x] Identify and document primary elements like suppliers, manufacturers, distributors, retailers, and consumers.
+- [x] Create a working ontology and implement it in the system.
+
+
+## Demo: What Went Well
+
+1. **Ontology Implementation**: 
+    - Successfully integrated the ontology framework.
+    - Enhanced the system's understanding and extensibility by replacing traditional relational database structures.
+    - Enabled system to guess nodes using first-order logic and automate the search process.
+3. **Feature Requests Addressed**:
+    - Noted and planned important feature requests like the accuracy counter for supply chain mapping.
+4. **Initial MVP**:
+    - Demonstrated an initial version of a minimally viable product (MVP).
+
+## Segmentation.
+2. **AI Segmentation**:
+    - Divided process into three distinct AI components:
+        - AI for searching information.
+        - AI for making connections and data mashing.
+        - AI for creating displays, widgets, and tables.
+
+## What Could Be Improved
+1. **Accuracy and Quality Assurance**:
+    - Ensure the system's accuracy and address concerns about missing small, vital components.
+    - Requested a feature to improve accuracy.
+2. **Focus and Scope Management**:
+    - Avoid getting into "rabbit holes".
+    - Focus on achieving a functional product that provides reasonably accurate mappings.
+3. **Balancing Development Efforts**:
+    - Balance efforts between creating a usable product and maintaining high accuracy.
+
+## Work done
+- [x] Create a protocol to allow the AI to control the UI elements and dynamically render various visualizations.
+- [x] CREWS need to start working to crawl the internet for subquestions.
+- [x] Finetune: protocol to allow the AI to control the UI elements and dynamically render various visualizations.
+- [x] Create an ontology to describe the supply chain elements as a schema to help the AI structurize knowledge.
+- [x] Chat system needs to work and update map upon prompt.
+
+## Work done' continued
+- [x] Creating a digital environment and bringing it online.
+- [x] Updating the contacts sheet, making it into markdown.
+- [x] Recruiting text for students
+- [x] Making a website - process
+
+## Next Sprint
+
+### Tasks
+
+**Next Steps:**
+
+EPIC Visualize Power Dynamics Ecosystem: 
+- Develop a feature to visualize the entire ecosystem based on a company name within 20 minutes.
+
+### Sprint Goal
+
+- Integrate all core components, ensure system reliability and accuracy, and prepare for a visual launch of the Power Dynamics Ecosystem feature.
+- Feature request: Accuracy Counter!
+
+## Sub-Goals
+
+1. **Enhance Ontology Framework**:
+    - Finalize the ontology for comprehensive representation of supply chain elements and relationships.
+
+2. **Develop and Refine Visualizations**:
+    - Make sure it updates the D3.js
+    - Create a design visual framework. 
+
+
+## Sub-Goals Continued
+
+3. **User Feedback Integration**:
+    - Schedule another demo and feedback on this. 
+
+4. **System Testing and Quality Assurance**:
+    - Conduct thorough testing to ensure accuracy and reliability.
+
+5. **Prepare for Visual Launch**:
+    - Finalize elements for a successful visual launch.
+
+### Sub-Goals and Optional Tasks
+
+## Backlog
+
+- [ ] Ask multiple AIs and multiple prompts to identify which data is correct.
+- [ ] [in progress] Need to build the task scheduler for the A.I Crews.
+- [ ] Visual updates about the crews in the interface.
+- [ ] [in progress] Load significantly more data into the model to parse.
+- [ ] [in progress] Built an initial dataset to train AI models, improving accuracy from 40% to 70%.
+- [ ] First version of the application online.
+
+## Backlog #2
+- [ ] Setup of LinkedIn Page.
+- [ ] Getting a Domain.
+- [ ] Onboarding Process for students. 
+- [ ] Setup recruitment process for students, CRM.
+- [ ] Setup of social media for Value Chain Hackers.
+- [ ] Making a nicer looking website.
+
+## backlog #3
+- [ ] Creation of online content for students to learn, LMS.
+- [ ] Filing for public grants.
+- [ ] Going to several events on behalf of Value Chain Hackers.
+- [ ] Server setup and config budget for production.
+- [ ] Setup scripts.
+- [ ] Splitting the minds over multiple machines.
