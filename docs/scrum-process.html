@@ -377,7 +377,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>```</p>
 <section id="product-backlog" class="level3" data-number="10.1.1">
 <h3 data-number="10.1.1" class="anchored" data-anchor-id="product-backlog"><span class="header-section-number">10.1.1</span> Product Backlog</h3>
 <p>The Product Backlog is an ordered list of everything that might be needed in the product and is the single source of requirements for any changes to be made to the product. The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.</p>
@@ -545,91 +544,113 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>EU Perspective:</strong> The EU aims to maximize the impact of its funding by ensuring that projects deliver value efficiently. Scrum’s incremental delivery ensures that each</li>
 </ul>
-<p>```ssakwsyjr graph TD A<a href="#product-backlog">Product Backlog</a> –&gt;|Select Items| B<a href="#sprint-planning">Sprint Planning</a> B –&gt; C<a href="#sprint-backlog">Sprint Backlog</a> C –&gt; D<a href="#daily-scrum">Daily Scrum</a> D –&gt; E<a href="#development-work">Development Work</a> E –&gt; F<a href="#increment">Increment</a> F –&gt; G<a href="#sprint-review">Sprint Review</a> G –&gt; H<a href="#sprint-retrospective">Sprint Retrospective</a> H –&gt; I<a href="#product-backlog-refinement">Product Backlog Refinement</a> I –&gt; B</p>
-<pre><code>subgraph Sprint
-    C --&gt; D
-    D --&gt; E
-    E --&gt; F
-    F --&gt; G
-    G --&gt; H
-    H --&gt; I
-end
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TD
+    A[Product Backlog] --&gt;|Select Items| B[Sprint Planning]
+    B --&gt; C[Sprint Backlog]
+    C --&gt; D[Daily Scrum]
+    D --&gt; E[Development Work]
+    E --&gt; F[Increment]
+    F --&gt; G[Sprint Review]
+    G --&gt; H[Sprint Retrospective]
+    H --&gt; I[Product Backlog Refinement]
+    I --&gt; B
 
-subgraph Project Initiation
-    A1[Kickoff Meeting] --&gt; A2[Project Charter]
-    A2 --&gt; A3[Communication Plan]
-    A3 --&gt; A4[Project Management Tool Setup]
-    A4 --&gt; A
-end
+    subgraph Sprint
+        C --&gt; D
+        D --&gt; E
+        E --&gt; F
+        F --&gt; G
+        G --&gt; H
+        H --&gt; I
+    end
 
-subgraph Exploration and Planning Phase
-    B1[Exploration Meetings] --&gt; B2[User Stories]
-    B2 --&gt; B3[User Personas]
-    B3 --&gt; B4[Journey Maps]
-    B4 --&gt; B5[Sprint 0 Planning]
-    B5 --&gt; B6[Product Backlog]
-    B5 --&gt; B7[Definition of Done]
-    B5 --&gt; B8[Sprint Plan]
-end
+    subgraph Project Initiation
+        A1[Kickoff Meeting] --&gt; A2[Project Charter]
+        A2 --&gt; A3[Communication Plan]
+        A3 --&gt; A4[Project Management Tool Setup]
+        A4 --&gt; A
+    end
 
-subgraph Sprint Execution Phase
-    C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]
-    C2 --&gt; C3[Sprint Goal]
-    C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]
-    C5 --&gt; C6[Issue Log]
-    C7[Sprint Review Meetings] --&gt; C8[Increment]
-    C8 --&gt; C9[Stakeholder Feedback]
-    C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]
-    C11 --&gt; C12[Improvement Plan]
-end
+    subgraph Exploration and Planning Phase
+        B1[Exploration Meetings] --&gt; B2[User Stories]
+        B2 --&gt; B3[User Personas]
+        B3 --&gt; B4[Journey Maps]
+        B4 --&gt; B5[Sprint 0 Planning]
+        B5 --&gt; B6[Product Backlog]
+        B5 --&gt; B7[Definition of Done]
+        B5 --&gt; B8[Sprint Plan]
+    end
 
-subgraph Product Development Specifics for WP 3.2
-    D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]
-    D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]
-    D4 --&gt; D5[Smart Contract Documentation]
-    D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]
-    D7 --&gt; D8[UI Mockups]
-    D8 --&gt; D9[Developed UI Components]
-    D10[Integration Planning Meetings] --&gt; D11[Integration Plan]
-    D11 --&gt; D12[Implemented APIs]
-end
+    subgraph Sprint Execution Phase
+        C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]
+        C2 --&gt; C3[Sprint Goal]
+        C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]
+        C5 --&gt; C6[Issue Log]
+        C7[Sprint Review Meetings] --&gt; C8[Increment]
+        C8 --&gt; C9[Stakeholder Feedback]
+        C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]
+        C11 --&gt; C12[Improvement Plan]
+    end
 
-subgraph Quality Assurance and Testing
-    E1[Testing Planning Meetings] --&gt; E2[Test Plans]
-    E2 --&gt; E3[Test Cases]
-    E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]
-    E5 --&gt; E6[Integration Testing Report]
-    E6 --&gt; E7[Performance Testing Report]
-    E7 --&gt; E8[Security Testing Report]
-    E8 --&gt; E9[Compatibility Testing Report]
-    E9 --&gt; E10[Regression Testing Report]
-    E10 --&gt; E11[Load Testing Report]
-    E11 --&gt; E12[Stress Testing Report]
-end
+    subgraph Product Development Specifics for WP 3.2
+        D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]
+        D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]
+        D4 --&gt; D5[Smart Contract Documentation]
+        D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]
+        D7 --&gt; D8[UI Mockups]
+        D8 --&gt; D9[Developed UI Components]
+        D10[Integration Planning Meetings] --&gt; D11[Integration Plan]
+        D11 --&gt; D12[Implemented APIs]
+    end
 
-subgraph Documentation and Training
-    F1[Documentation Workshops] --&gt; F2[System Documentation]
-    F3[Training Sessions] --&gt; F4[Training Materials]
-    F4 --&gt; F5[Training Reports]
-    F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]
-end
+    subgraph Quality Assurance and Testing
+        E1[Testing Planning Meetings] --&gt; E2[Test Plans]
+        E2 --&gt; E3[Test Cases]
+        E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]
+        E5 --&gt; E6[Integration Testing Report]
+        E6 --&gt; E7[Performance Testing Report]
+        E7 --&gt; E8[Security Testing Report]
+        E8 --&gt; E9[Compatibility Testing Report]
+        E9 --&gt; E10[Regression Testing Report]
+        E10 --&gt; E11[Load Testing Report]
+        E11 --&gt; E12[Stress Testing Report]
+    end
 
-subgraph Continuous Improvement
-    G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]
-    G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]
-    G4 --&gt; G5[User Acceptance Testing]
-    G5 --&gt; G6[Accessibility Testing]
-    G6 --&gt; G7[Localization Testing]
-    G7 --&gt; G8[Beta Testing]
-    G8 --&gt; G9[Compliance Testing]
-    G9 --&gt; G10[A/B Testing]
-    G10 --&gt; G11[Exploratory Testing]
-    G11 --&gt; G12[End-User Testing]
-    G12 --&gt; G13[Scenario-Based Testing]
-    G13 --&gt; G14[GUI Testing]
-    G14 --&gt; G15[Documentation Testing]
-    G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]
-end</code></pre>
+    subgraph Documentation and Training
+        F1[Documentation Workshops] --&gt; F2[System Documentation]
+        F3[Training Sessions] --&gt; F4[Training Materials]
+        F4 --&gt; F5[Training Reports]
+        F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]
+    end
+
+    subgraph Continuous Improvement
+        G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]
+        G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]
+        G4 --&gt; G5[User Acceptance Testing]
+        G5 --&gt; G6[Accessibility Testing]
+        G6 --&gt; G7[Localization Testing]
+        G7 --&gt; G8[Beta Testing]
+        G8 --&gt; G9[Compliance Testing]
+        G9 --&gt; G10[A/B Testing]
+        G10 --&gt; G11[Exploratory Testing]
+        G11 --&gt; G12[End-User Testing]
+        G12 --&gt; G13[Scenario-Based Testing]
+        G13 --&gt; G14[GUI Testing]
+        G14 --&gt; G15[Documentation Testing]
+        G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]
+    end
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>test test</p>
 
 
 </section>
