@@ -1,0 +1,164 @@
+\contentsline {chapter}{\numberline {1}Welcome to Value Chain Hackers}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Welcome}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Our Mission}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}What to Expect}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Getting Started}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Contact Information}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusion}{9}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Introduction}{10}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Introduction}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Inspiring Videos}{11}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}How Wolves Change Rivers}{11}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Simon Sinek: How Great Leaders Inspire Action}{12}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}RSA ANIMATE: Drive: The surprising truth about what motivates us}{13}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}The Power of Vulnerability - Brené Brown}{14}{subsection.4.1.4}%
+\contentsline {chapter}{\numberline {5}Why}{16}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Why}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Why Value Chain Hackers}{17}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Unleashing Your Potential}{17}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Real-World Impact}{17}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Innovation and Creativity}{17}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Collaboration and Community}{18}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Why Online Learning \& Digital Lab}{18}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Flexibility and Accessibility}{18}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Cutting-Edge Tools and Resources}{18}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Interactive and Engaging Content}{18}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Why AI for Supply Chain}{18}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Enhancing Efficiency}{18}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Driving Innovation}{19}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Improving Sustainability}{19}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Why Scrum Agile Working Methodology}{19}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Flexibility and Adaptability}{19}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Enhancing Team Collaboration}{19}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Continuous Improvement}{19}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Clear Goals and Accountability}{20}{subsection.6.4.4}%
+\contentsline {chapter}{\numberline {7}How}{21}{chapter.7}%
+\contentsline {chapter}{\numberline {8}How}{22}{chapter.8}%
+\contentsline {section}{\numberline {8.1}How Do We Ensure Our Feedback Is Taken Seriously? 🤔}{22}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Clear Communication 📢}{22}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Constructive Criticism 🛠️}{22}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Regular Feedback Sessions 📅}{22}{subsection.8.1.3}%
+\contentsline {section}{\numberline {8.2}How Can We Make Students Report More Often? 📝}{22}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Streamlined Reporting Tools 🛠️}{22}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Gamification 🎮}{23}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Regular Check-Ins 🔄}{23}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.3}How Can We Get Teachers to Act as Coaches in Our Project? 👨‍🏫👩‍🏫}{23}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Roman-Patreon Model 🏛️}{23}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Incentives for Teachers 🎁}{23}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Collaborative Workshops 🛠️}{23}{subsection.8.3.3}%
+\contentsline {section}{\numberline {8.4}How Can We Motivate Students Sufficiently? 🌟}{24}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Engaging Activities 🎉}{24}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Recognition and Rewards 🏆}{24}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Clear Goals and Milestones 🎯}{24}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.4.4}Supportive Community 🤝}{24}{subsection.8.4.4}%
+\contentsline {section}{\numberline {8.5}Tracking Projects in a Digital Space 🌐}{24}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Project Management Tools 🛠️}{24}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Collaborative Platforms 👥}{24}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.5.3}Regular Updates 📅}{25}{subsection.8.5.3}%
+\contentsline {subsection}{\numberline {8.5.4}Visual Dashboards 📊}{25}{subsection.8.5.4}%
+\contentsline {section}{\numberline {8.6}Conclusion}{25}{section.8.6}%
+\contentsline {chapter}{\numberline {9}What}{26}{chapter.9}%
+\contentsline {section}{\numberline {9.1}What We Do at Value Chain Hackers}{26}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Real-World Projects 🌍}{26}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Agile-Scrum Methodology 🛠️}{26}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Digital Lab and Online Learning 💻}{27}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}AI and Innovation 🤖}{27}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.5}Continuous Improvement 🔄}{27}{subsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.1.6}Fun and Engaging Activities 🎉}{27}{subsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.1.7}Recognition and Rewards 🏆}{27}{subsection.9.1.7}%
+\contentsline {subsection}{\numberline {9.1.8}Community and Collaboration 🤝}{27}{subsection.9.1.8}%
+\contentsline {subsection}{\numberline {9.1.9}Inspiring Resources 📚}{28}{subsection.9.1.9}%
+\contentsline {section}{\numberline {9.2}Conclusion}{28}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Tools}{29}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Tools}{30}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Essential Tools for Value Chain Hackers}{30}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Communication 📢}{30}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}Project Management 🛠️}{30}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}Collaboration 🤝}{30}{subsection.11.1.3}%
+\contentsline {subsection}{\numberline {11.1.4}Version Control 🔄}{31}{subsection.11.1.4}%
+\contentsline {subsection}{\numberline {11.1.5}Document Creation 📄}{31}{subsection.11.1.5}%
+\contentsline {subsection}{\numberline {11.1.6}Virtual Meetings 📹}{31}{subsection.11.1.6}%
+\contentsline {subsection}{\numberline {11.1.7}Survey and Feedback 📝}{31}{subsection.11.1.7}%
+\contentsline {subsection}{\numberline {11.1.8}Learning Management Systems (LMS) 📚}{32}{subsection.11.1.8}%
+\contentsline {subsection}{\numberline {11.1.9}Design and Creativity 🎨}{32}{subsection.11.1.9}%
+\contentsline {subsection}{\numberline {11.1.10}Note Taking 📝}{32}{subsection.11.1.10}%
+\contentsline {section}{\numberline {11.2}Conclusion}{32}{section.11.2}%
+\contentsline {chapter}{\numberline {12}Supply Chain Mapping}{33}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Map Supply Chains using ontologies}{33}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Chunks : Chunkin a large document in pieces}{35}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Preprocess : Remove the grease}{35}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Extract : Get tuples of knowledge from the text}{35}{section.12.4}%
+\contentsline {section}{\numberline {12.5}Validate : Check facts, deduplicate ensure proper syntax}{35}{section.12.5}%
+\contentsline {section}{\numberline {12.6}Ingest : Incorporate tuples and nodes to the global graph}{35}{section.12.6}%
+\contentsline {section}{\numberline {12.7}Technical Budget}{36}{section.12.7}%
+\contentsline {chapter}{\numberline {13}Student Flow}{37}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Student Flow}{38}{chapter.14}%
+\contentsline {section}{\numberline {14.1}1. Kick-off Hackathon 🚀}{38}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}Meet Your Team 🤝}{38}{subsection.14.1.1}%
+\contentsline {section}{\numberline {14.2}2. Project Initialization 🛠️}{38}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}Set Up Your Tools 🧰}{38}{subsection.14.2.1}%
+\contentsline {subsection}{\numberline {14.2.2}Initial Planning 🗓️}{38}{subsection.14.2.2}%
+\contentsline {section}{\numberline {14.3}3. Bi-Weekly SCRUM Meetings 🔄}{39}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Regular Check-ins 🗣️}{39}{subsection.14.3.1}%
+\contentsline {section}{\numberline {14.4}4. Ongoing Mentorship and Support 👨‍🏫👩‍🏫}{39}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}Mentor Sessions 💬}{39}{subsection.14.4.1}%
+\contentsline {section}{\numberline {14.5}5. Monthly Cohesion Meetings 🌐}{39}{section.14.5}%
+\contentsline {subsection}{\numberline {14.5.1}Strengthen Teamwork 🤜🤛}{39}{subsection.14.5.1}%
+\contentsline {section}{\numberline {14.6}6. Consortium Meetings 📊}{39}{section.14.6}%
+\contentsline {subsection}{\numberline {14.6.1}Share Progress and Exchange Ideas 💡}{39}{subsection.14.6.1}%
+\contentsline {section}{\numberline {14.7}7. Quarterly Status Updates 📅}{40}{section.14.7}%
+\contentsline {subsection}{\numberline {14.7.1}Assess and Prepare 📈}{40}{subsection.14.7.1}%
+\contentsline {section}{\numberline {14.8}8. Semester Closing 🎓}{40}{section.14.8}%
+\contentsline {subsection}{\numberline {14.8.1}Final Presentations 🗣️}{40}{subsection.14.8.1}%
+\contentsline {subsection}{\numberline {14.8.2}Celebration and Networking 🎉}{40}{subsection.14.8.2}%
+\contentsline {section}{\numberline {14.9}9. Continuous Improvement 🔄}{40}{section.14.9}%
+\contentsline {subsection}{\numberline {14.9.1}Reflect and Improve 🌟}{40}{subsection.14.9.1}%
+\contentsline {section}{\numberline {14.10}Conclusion}{41}{section.14.10}%
+\contentsline {chapter}{\numberline {15}Scrum Process}{42}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Scrum Process}{43}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Key Components of Scrum}{44}{section.16.1}%
+\contentsline {chapter}{\numberline {17}Roles}{51}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Roles}{52}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Key Roles and Responsibilities}{52}{section.18.1}%
+\contentsline {subsection}{\numberline {18.1.1}1. Project Manager 📝}{52}{subsection.18.1.1}%
+\contentsline {subsection}{\numberline {18.1.2}2. Product Owner 🛠️}{52}{subsection.18.1.2}%
+\contentsline {subsection}{\numberline {18.1.3}3. Scrum Master 📈}{52}{subsection.18.1.3}%
+\contentsline {subsection}{\numberline {18.1.4}4. Team Member 👩‍💻👨‍💻}{53}{subsection.18.1.4}%
+\contentsline {subsection}{\numberline {18.1.5}5. Mentor 🧑‍🏫}{53}{subsection.18.1.5}%
+\contentsline {subsection}{\numberline {18.1.6}6. Stakeholder 👥}{53}{subsection.18.1.6}%
+\contentsline {section}{\numberline {18.2}Roman Patronage Model 🏛️}{53}{section.18.2}%
+\contentsline {section}{\numberline {18.3}Tracking Projects in a Digital Space 💻}{53}{section.18.3}%
+\contentsline {section}{\numberline {18.4}Conclusion}{54}{section.18.4}%
+\contentsline {chapter}{\numberline {19}Resources}{55}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Resources}{56}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Tools and Platforms}{56}{section.20.1}%
+\contentsline {subsection}{\numberline {20.1.1}Communication 📢}{56}{subsection.20.1.1}%
+\contentsline {subsection}{\numberline {20.1.2}Project Management 🛠️}{56}{subsection.20.1.2}%
+\contentsline {subsection}{\numberline {20.1.3}Collaboration 🤝}{56}{subsection.20.1.3}%
+\contentsline {subsection}{\numberline {20.1.4}Version Control 🔄}{57}{subsection.20.1.4}%
+\contentsline {subsection}{\numberline {20.1.5}Document Creation 📄}{57}{subsection.20.1.5}%
+\contentsline {subsection}{\numberline {20.1.6}Virtual Meetings 📹}{57}{subsection.20.1.6}%
+\contentsline {subsection}{\numberline {20.1.7}Survey and Feedback 📝}{57}{subsection.20.1.7}%
+\contentsline {subsection}{\numberline {20.1.8}Design and Creativity 🎨}{57}{subsection.20.1.8}%
+\contentsline {subsection}{\numberline {20.1.9}Note Taking 📝}{58}{subsection.20.1.9}%
+\contentsline {section}{\numberline {20.2}Reading Materials 📚}{58}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Inspiring Videos 🎥}{59}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Conclusion}{63}{section.20.4}%
+\contentsline {chapter}{\numberline {21}Summary}{64}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Summary}{65}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Reflecting on Our Journey 🚀}{65}{section.22.1}%
+\contentsline {section}{\numberline {22.2}Key Takeaways}{65}{section.22.2}%
+\contentsline {subsection}{\numberline {22.2.1}Embracing Innovation 🌟}{65}{subsection.22.2.1}%
+\contentsline {subsection}{\numberline {22.2.2}Collaborative Learning 🤝}{65}{subsection.22.2.2}%
+\contentsline {subsection}{\numberline {22.2.3}Real-World Impact 🌍}{65}{subsection.22.2.3}%
+\contentsline {subsection}{\numberline {22.2.4}Continuous Improvement 🔄}{66}{subsection.22.2.4}%
+\contentsline {subsection}{\numberline {22.2.5}Community and Support 🧑‍🤝‍🧑}{66}{subsection.22.2.5}%
+\contentsline {section}{\numberline {22.3}Next Steps}{66}{section.22.3}%
+\contentsline {section}{\numberline {22.4}Final Thoughts}{66}{section.22.4}%
+\contentsline {chapter}{\numberline {23}Presentations}{67}{chapter.23}%
+\contentsline {subsection}{\numberline {23.0.1}13-06-2024 planning}{67}{subsection.23.0.1}%
+\contentsline {subsection}{\numberline {23.0.2}30-05-2024 Planning}{67}{subsection.23.0.2}%
+\contentsline {subsection}{\numberline {23.0.3}22-05-2024 presentation}{67}{subsection.23.0.3}%
+\contentsline {chapter}{\numberline {24}References}{69}{chapter.24}%
+\contentsline {chapter}{\numberline {25}References}{70}{chapter.25}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
