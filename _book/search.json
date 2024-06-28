@@ -260,6 +260,76 @@
     ]
   },
   {
+    "objectID": "docs/ai/index.html",
+    "href": "docs/ai/index.html",
+    "title": "7  Supply Chain Mapping",
+    "section": "",
+    "text": "7.1 Map Supply Chains using ontologies\nExtracting knowledge from large text documents is not a single step. To retrieve valuable information from these a large document or corpus needs to be chuncked and the task needs to be subdivided in multiple sub-tasks.\ngraph LR\nstyle PDF fill:#008000, stroke:#000000\nstyle Crawling fill:#ffa500, stroke:#000000\nstyle SEC fill:#ff0000, stroke:#000000\nstyle Wikipedia fill:#ffa500, stroke:#000000\nstyle DuckDuckGo fill:#ffa500, stroke:#000000\nstyle Store fill:#ffff00, stroke:#000000\nstyle Ingestion fill:#008000, stroke:#000000\nstyle Transform fill:#ffff00, stroke:#000000\nstyle Extract fill:#008000, stroke:#000000\nstyle LLM fill:#008000, stroke:#000000\nstyle IndexGraph fill:#ffa500, stroke:#000000\nstyle IndexFact fill:#ffa500, stroke:#000000\nstyle Neo4j fill:#ffa500, stroke:#000000\nstyle Sqlite fill:#ffff00, stroke:#000000\nstyle Markdown fill:#008000, stroke:#000000\nstyle Faiss fill:#ffa500, stroke:#000000\nstyle Chroma fill:#008000, stroke:#000000\nstyle RAG fill:#ffff00, stroke:#000000\nstyle UIAI fill:#ffa500, stroke:#000000\nstyle Query fill:#ffa500, stroke:#000000\nstyle Retrievers fill:#ffa500, stroke:#000000\nstyle Results fill:#ffa500, stroke:#000000\nstyle Visualize fill:#ffa500, stroke:#000000\nstyle Embeddings fill:#ffa500, stroke:#000000\nstyle Structurize fill:#ffa500, stroke:#000000\n\nsubgraph Collect\n    PDF[PDF\\nannual reports] --&gt; Store\n    Crawling[Crawling:\\nWeb Site\\nBrand Site\\nProduct Pages] --&gt; Store\n    SEC[US SEC\\nFilings\\n10-K\\n10-Q] --&gt; Store\n    Wikipedia[Wiki\\nCompany Pages\\nIngredients\\nChemicals] --&gt; Store\n    DuckDuckGo[Search\\nDuckDuckGo] --&gt; Store\n    Store --&gt; Ingestion[Processing\\nIngestion]\nend\n\nsubgraph Ingest\n    Ingestion --&gt; Transform &lt;--&gt; Extract[Extract:\\nNodes, Edges]\n    Transform &lt;--&gt; Structurize[Structurize:\\nCSV, JSON, Markdown]\n    Transform --&gt; Embeddings\n    Structurize --&gt; Knowledge\nend\n\nsubgraph Knowledge\n    Transform --&gt; LLM\n    Extract &lt;--&gt; IndexGraph\n    Extract &lt;--&gt; IndexFact\n    LLM --&gt; Structurize\nend\n\nRAG --&gt; Retrievers\n\nsubgraph GraphDatabase\n    IndexGraph[Graph\\nNodes\\nLinks] --&gt; Neo4j \n    RAG --&gt; Neo4j\nend\n\nsubgraph FactDatabase\n    IndexFact --&gt; Sqlite \n    IndexFact --&gt; Markdown\n    Markdown --&gt; RAG\n    Sqlite --&gt; RAG\nend\n\nsubgraph VectorStores\n    Embeddings --&gt; Faiss\n    Embeddings --&gt; Chroma\n    Faiss --&gt; RAG\n    Chroma --&gt; RAG\nend\n\nsubgraph UI\n    UIAI --&gt; Query --&gt; Retrievers --&gt; Results --&gt; Visualize\n    Query --&gt; Visualize\nend",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "docs/ai/index.html#chunks-chunkin-a-large-document-in-pieces",
+    "href": "docs/ai/index.html#chunks-chunkin-a-large-document-in-pieces",
+    "title": "7  Supply Chain Mapping",
+    "section": "7.2 Chunks : Chunkin a large document in pieces",
+    "text": "7.2 Chunks : Chunkin a large document in pieces\nThis step will take a large document and chuck it in parts using some overlap to ensure that paragraph that would be cut in their middle are also present in the next chunk of text.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "docs/ai/index.html#preprocess-remove-the-grease",
+    "href": "docs/ai/index.html#preprocess-remove-the-grease",
+    "title": "7  Supply Chain Mapping",
+    "section": "7.3 Preprocess : Remove the grease",
+    "text": "7.3 Preprocess : Remove the grease\nThis step will tranform the larger text chunks to sentences that are focused on facts, named entities, take-aways and essential points removing the grease of what is not relevant to the extraction process, but present in the textual form of the document.\nPre-Process Prompt",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "docs/ai/index.html#extract-get-tuples-of-knowledge-from-the-text",
+    "href": "docs/ai/index.html#extract-get-tuples-of-knowledge-from-the-text",
+    "title": "7  Supply Chain Mapping",
+    "section": "7.4 Extract : Get tuples of knowledge from the text",
+    "text": "7.4 Extract : Get tuples of knowledge from the text\nWith the reduced text now the model will attempt to make tuples and nodes according to the ontology. Here too divide and conquer will be used, in order to reduce hallucianations it’s better to invoke the model multiple times using a subset of the ontlogy each time. This will yield better results and avoid the model to try to makeup nodes for each class of the ontology.\nExtracting Prompt",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "docs/ai/index.html#validate-check-facts-deduplicate-ensure-proper-syntax",
+    "href": "docs/ai/index.html#validate-check-facts-deduplicate-ensure-proper-syntax",
+    "title": "7  Supply Chain Mapping",
+    "section": "7.5 Validate : Check facts, deduplicate ensure proper syntax",
+    "text": "7.5 Validate : Check facts, deduplicate ensure proper syntax\nNow we have extracted nodes, we will invoke antoher model to do a quality check on each node, by adding a rag on the actual document this step is able to search back in the document and coroborate different pieces of the document to make the most complete set of tuples and nodes, suppressing normally any hallucinated facts that might have produced by previous steps.\nValidation Prompt",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "docs/ai/index.html#ingest-incorporate-tuples-and-nodes-to-the-global-graph",
+    "href": "docs/ai/index.html#ingest-incorporate-tuples-and-nodes-to-the-global-graph",
+    "title": "7  Supply Chain Mapping",
+    "section": "7.6 Ingest : Incorporate tuples and nodes to the global graph",
+    "text": "7.6 Ingest : Incorporate tuples and nodes to the global graph\nWith our appured nodes being now filtered and checked for quality we will now query the graph for each of them and add them if they are not a perfect duplicate and reject the nodes that might be too similar using cosine similarity and clustering techniques.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "docs/ai/index.html#technical-budget",
+    "href": "docs/ai/index.html#technical-budget",
+    "title": "7  Supply Chain Mapping",
+    "section": "7.7 Technical Budget",
+    "text": "7.7 Technical Budget\ntechnical budget",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+    ]
+  },
+  {
     "objectID": "docs/student-flow.html",
     "href": "docs/student-flow.html",
     "title": "8  Student Flow",
@@ -434,7 +504,7 @@
     "href": "docs/scrum-process.html#why-scrum-is-right-for-this-eu-funding-call",
     "title": "9  Scrum Process",
     "section": "10.6 Why Scrum is Right for This EU Funding Call",
-    "text": "10.6 Why Scrum is Right for This EU Funding Call\n\n10.6.1 1. Alignment with EU’s Innovation Goals\n\n10.6.1.1 Flexibility and Responsiveness to Change\n\nEU Perspective: The European Union emphasizes innovation and adaptability in its funding programs. Agile-Scrum’s iterative cycles are particularly suited to the EU’s objectives of fostering innovative solutions and adapting to emerging trends and technologies. This flexibility ensures that projects remain relevant and can pivot quickly in response to new data or stakeholder feedback.\nSupporting Data: Agile projects are roughly twice as likely to succeed compared to traditional Waterfall projects due to their ability to adapt and respond to changes quickly (Visual Paradigm) (Opensource.com).\n\n\n\n\n10.6.2 2. Efficient Use of Resources\n\n10.6.2.1 Incremental Delivery and Early Value Realization\n\nEU Perspective: The EU aims to maximize the impact of its funding by ensuring that projects deliver value efficiently. Scrum’s incremental delivery ensures that each\n\n```ohmqlnogg graph TD AProduct Backlog –&gt;|Select Items| BSprint Planning B –&gt; CSprint Backlog C –&gt; DDaily Scrum D –&gt; EDevelopment Work E –&gt; FIncrement F –&gt; GSprint Review G –&gt; HSprint Retrospective H –&gt; IProduct Backlog Refinement I –&gt; B\nsubgraph Sprint\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; I\nend\n\nsubgraph Project Initiation\n    A1[Kickoff Meeting] --&gt; A2[Project Charter]\n    A2 --&gt; A3[Communication Plan]\n    A3 --&gt; A4[Project Management Tool Setup]\n    A4 --&gt; A\nend\n\nsubgraph Exploration and Planning Phase\n    B1[Exploration Meetings] --&gt; B2[User Stories]\n    B2 --&gt; B3[User Personas]\n    B3 --&gt; B4[Journey Maps]\n    B4 --&gt; B5[Sprint 0 Planning]\n    B5 --&gt; B6[Product Backlog]\n    B5 --&gt; B7[Definition of Done]\n    B5 --&gt; B8[Sprint Plan]\nend\n\nsubgraph Sprint Execution Phase\n    C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]\n    C2 --&gt; C3[Sprint Goal]\n    C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]\n    C5 --&gt; C6[Issue Log]\n    C7[Sprint Review Meetings] --&gt; C8[Increment]\n    C8 --&gt; C9[Stakeholder Feedback]\n    C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]\n    C11 --&gt; C12[Improvement Plan]\nend\n\nsubgraph Product Development Specifics for WP 3.2\n    D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]\n    D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]\n    D4 --&gt; D5[Smart Contract Documentation]\n    D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]\n    D7 --&gt; D8[UI Mockups]\n    D8 --&gt; D9[Developed UI Components]\n    D10[Integration Planning Meetings] --&gt; D11[Integration Plan]\n    D11 --&gt; D12[Implemented APIs]\nend\n\nsubgraph Quality Assurance and Testing\n    E1[Testing Planning Meetings] --&gt; E2[Test Plans]\n    E2 --&gt; E3[Test Cases]\n    E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]\n    E5 --&gt; E6[Integration Testing Report]\n    E6 --&gt; E7[Performance Testing Report]\n    E7 --&gt; E8[Security Testing Report]\n    E8 --&gt; E9[Compatibility Testing Report]\n    E9 --&gt; E10[Regression Testing Report]\n    E10 --&gt; E11[Load Testing Report]\n    E11 --&gt; E12[Stress Testing Report]\nend\n\nsubgraph Documentation and Training\n    F1[Documentation Workshops] --&gt; F2[System Documentation]\n    F3[Training Sessions] --&gt; F4[Training Materials]\n    F4 --&gt; F5[Training Reports]\n    F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]\nend\n\nsubgraph Continuous Improvement\n    G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]\n    G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]\n    G4 --&gt; G5[User Acceptance Testing]\n    G5 --&gt; G6[Accessibility Testing]\n    G6 --&gt; G7[Localization Testing]\n    G7 --&gt; G8[Beta Testing]\n    G8 --&gt; G9[Compliance Testing]\n    G9 --&gt; G10[A/B Testing]\n    G10 --&gt; G11[Exploratory Testing]\n    G11 --&gt; G12[End-User Testing]\n    G12 --&gt; G13[Scenario-Based Testing]\n    G13 --&gt; G14[GUI Testing]\n    G14 --&gt; G15[Documentation Testing]\n    G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]\nend",
+    "text": "10.6 Why Scrum is Right for This EU Funding Call\n\n10.6.1 1. Alignment with EU’s Innovation Goals\n\n10.6.1.1 Flexibility and Responsiveness to Change\n\nEU Perspective: The European Union emphasizes innovation and adaptability in its funding programs. Agile-Scrum’s iterative cycles are particularly suited to the EU’s objectives of fostering innovative solutions and adapting to emerging trends and technologies. This flexibility ensures that projects remain relevant and can pivot quickly in response to new data or stakeholder feedback.\nSupporting Data: Agile projects are roughly twice as likely to succeed compared to traditional Waterfall projects due to their ability to adapt and respond to changes quickly (Visual Paradigm) (Opensource.com).\n\n\n\n\n10.6.2 2. Efficient Use of Resources\n\n10.6.2.1 Incremental Delivery and Early Value Realization\n\nEU Perspective: The EU aims to maximize the impact of its funding by ensuring that projects deliver value efficiently. Scrum’s incremental delivery ensures that each\n\n```ssakwsyjr graph TD AProduct Backlog –&gt;|Select Items| BSprint Planning B –&gt; CSprint Backlog C –&gt; DDaily Scrum D –&gt; EDevelopment Work E –&gt; FIncrement F –&gt; GSprint Review G –&gt; HSprint Retrospective H –&gt; IProduct Backlog Refinement I –&gt; B\nsubgraph Sprint\n    C --&gt; D\n    D --&gt; E\n    E --&gt; F\n    F --&gt; G\n    G --&gt; H\n    H --&gt; I\nend\n\nsubgraph Project Initiation\n    A1[Kickoff Meeting] --&gt; A2[Project Charter]\n    A2 --&gt; A3[Communication Plan]\n    A3 --&gt; A4[Project Management Tool Setup]\n    A4 --&gt; A\nend\n\nsubgraph Exploration and Planning Phase\n    B1[Exploration Meetings] --&gt; B2[User Stories]\n    B2 --&gt; B3[User Personas]\n    B3 --&gt; B4[Journey Maps]\n    B4 --&gt; B5[Sprint 0 Planning]\n    B5 --&gt; B6[Product Backlog]\n    B5 --&gt; B7[Definition of Done]\n    B5 --&gt; B8[Sprint Plan]\nend\n\nsubgraph Sprint Execution Phase\n    C1[Sprint Planning Meetings] --&gt; C2[Sprint Backlog]\n    C2 --&gt; C3[Sprint Goal]\n    C4[Daily Stand-Up Meetings] --&gt; C5[Daily Status Updates]\n    C5 --&gt; C6[Issue Log]\n    C7[Sprint Review Meetings] --&gt; C8[Increment]\n    C8 --&gt; C9[Stakeholder Feedback]\n    C10[Sprint Retrospective Meetings] --&gt; C11[Retrospective Report]\n    C11 --&gt; C12[Improvement Plan]\nend\n\nsubgraph Product Development Specifics for WP 3.2\n    D1[System Architecture Design Workshops] --&gt; D2[System Architecture Document]\n    D3[Smart Contract Development Sessions] --&gt; D4[Smart Contract Code]\n    D4 --&gt; D5[Smart Contract Documentation]\n    D6[UI/UX Design Workshops] --&gt; D7[UI Wireframes]\n    D7 --&gt; D8[UI Mockups]\n    D8 --&gt; D9[Developed UI Components]\n    D10[Integration Planning Meetings] --&gt; D11[Integration Plan]\n    D11 --&gt; D12[Implemented APIs]\nend\n\nsubgraph Quality Assurance and Testing\n    E1[Testing Planning Meetings] --&gt; E2[Test Plans]\n    E2 --&gt; E3[Test Cases]\n    E4[Regular Testing Sessions] --&gt; E5[Unit Testing Report]\n    E5 --&gt; E6[Integration Testing Report]\n    E6 --&gt; E7[Performance Testing Report]\n    E7 --&gt; E8[Security Testing Report]\n    E8 --&gt; E9[Compatibility Testing Report]\n    E9 --&gt; E10[Regression Testing Report]\n    E10 --&gt; E11[Load Testing Report]\n    E11 --&gt; E12[Stress Testing Report]\nend\n\nsubgraph Documentation and Training\n    F1[Documentation Workshops] --&gt; F2[System Documentation]\n    F3[Training Sessions] --&gt; F4[Training Materials]\n    F4 --&gt; F5[Training Reports]\n    F6[SDA Bocconi Training] --&gt; F7[Introductory Training on Framework]\nend\n\nsubgraph Continuous Improvement\n    G1[Ongoing Retrospective Meetings] --&gt; G2[Continuous Improvement Plan]\n    G3[Non-Technical Tests and Validation by DCG] --&gt; G4[Usability Testing]\n    G4 --&gt; G5[User Acceptance Testing]\n    G5 --&gt; G6[Accessibility Testing]\n    G6 --&gt; G7[Localization Testing]\n    G7 --&gt; G8[Beta Testing]\n    G8 --&gt; G9[Compliance Testing]\n    G9 --&gt; G10[A/B Testing]\n    G10 --&gt; G11[Exploratory Testing]\n    G11 --&gt; G12[End-User Testing]\n    G12 --&gt; G13[Scenario-Based Testing]\n    G13 --&gt; G14[GUI Testing]\n    G14 --&gt; G15[Documentation Testing]\n    G16[Maintenance Strategy by VIRIDIS] --&gt; G17[Maintenance Strategy Document]\nend",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Scrum Process</span>"
     ]
@@ -492,181 +562,101 @@
   {
     "objectID": "docs/resources.html",
     "href": "docs/resources.html",
-    "title": "10  Resources",
+    "title": "11  Resources",
     "section": "",
-    "text": "11 Resources\nIn the Value Chain Hackers program, we provide a wealth of resources to support your learning, development, and project success. These resources include tools, platforms, reading materials, and inspiring videos that will help you thrive in our innovative environment.",
+    "text": "12 Resources\nIn the Value Chain Hackers program, we provide a wealth of resources to support your learning, development, and project success. These resources include tools, platforms, reading materials, and inspiring videos that will help you thrive in our innovative environment.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "docs/resources.html#tools-and-platforms",
     "href": "docs/resources.html#tools-and-platforms",
-    "title": "10  Resources",
-    "section": "11.1 Tools and Platforms",
-    "text": "11.1 Tools and Platforms\n\n11.1.1 Communication 📢\n\nNextcloud: An open-source platform for file sharing and collaboration. Use it for sharing documents, managing calendars, and more. Nextcloud\nDiscord: An online communication tool that integrates seamlessly with our digital workspace, perfect for instant messaging and voice/video calls. Discord\n\n\n\n11.1.2 Project Management 🛠️\n\nTaiga: An open-source agile project management platform. Manage tasks, sprints, and backlogs with ease. Taiga\n\n\n\n11.1.3 Collaboration 🤝\n\nEtherpad: An open-source collaborative text editor for real-time document editing. Great for working together on documents. Etherpad\nNextcloud: Also used for file sharing and collaboration. Nextcloud\n\n\n\n11.1.4 Version Control 🔄\n\nGitLab: An open-source Git repository management platform for version control and collaboration. GitLab\nSmartGit: A graphical Git client with support for GitHub, Bitbucket, and GitLab. SmartGit\nGitHub: Another popular open-source Git repository hosting service. GitHub\n\n\n\n11.1.5 Document Creation 📄\n\nLibreOffice: An open-source office suite for creating documents, spreadsheets, and presentations. LibreOffice\nQuarto: A tool for creating dynamic documents from Markdown. Quarto\nZotero: An open-source reference management software for organizing research sources and citations. Zotero\n\n\n\n11.1.6 Virtual Meetings 📹\n\nJitsi: An open-source video conferencing platform for hosting virtual meetings and webinars. Jitsi\nBigBlueButton: An open-source web conferencing system designed for online learning and collaboration. BigBlueButton\n\n\n\n11.1.7 Survey and Feedback 📝\n\nLimeSurvey: An open-source online survey software for creating and conducting surveys and assessments. LimeSurvey\nMoodle: An open-source learning management system for creating online courses and assessments. Moodle\n\n\n\n11.1.8 Design and Creativity 🎨\n\nEdraw: A powerful diagramming tool for creating flowcharts, mind maps, and more. Edraw\nPenpot: An open-source design and prototyping platform. Penpot\n\n\n\n11.1.9 Note Taking 📝\n\nEtherpad: A collaborative text editor for real-time document editing. Etherpad\nPrivnote: A tool for creating notes that will self-destruct after being read. Privnote",
+    "title": "11  Resources",
+    "section": "12.1 Tools and Platforms",
+    "text": "12.1 Tools and Platforms\n\n12.1.1 Communication 📢\n\nNextcloud: An open-source platform for file sharing and collaboration. Use it for sharing documents, managing calendars, and more. Nextcloud\nDiscord: An online communication tool that integrates seamlessly with our digital workspace, perfect for instant messaging and voice/video calls. Discord\n\n\n\n12.1.2 Project Management 🛠️\n\nTaiga: An open-source agile project management platform. Manage tasks, sprints, and backlogs with ease. Taiga\n\n\n\n12.1.3 Collaboration 🤝\n\nEtherpad: An open-source collaborative text editor for real-time document editing. Great for working together on documents. Etherpad\nNextcloud: Also used for file sharing and collaboration. Nextcloud\n\n\n\n12.1.4 Version Control 🔄\n\nGitLab: An open-source Git repository management platform for version control and collaboration. GitLab\nSmartGit: A graphical Git client with support for GitHub, Bitbucket, and GitLab. SmartGit\nGitHub: Another popular open-source Git repository hosting service. GitHub\n\n\n\n12.1.5 Document Creation 📄\n\nLibreOffice: An open-source office suite for creating documents, spreadsheets, and presentations. LibreOffice\nQuarto: A tool for creating dynamic documents from Markdown. Quarto\nZotero: An open-source reference management software for organizing research sources and citations. Zotero\n\n\n\n12.1.6 Virtual Meetings 📹\n\nJitsi: An open-source video conferencing platform for hosting virtual meetings and webinars. Jitsi\nBigBlueButton: An open-source web conferencing system designed for online learning and collaboration. BigBlueButton\n\n\n\n12.1.7 Survey and Feedback 📝\n\nLimeSurvey: An open-source online survey software for creating and conducting surveys and assessments. LimeSurvey\nMoodle: An open-source learning management system for creating online courses and assessments. Moodle\n\n\n\n12.1.8 Design and Creativity 🎨\n\nEdraw: A powerful diagramming tool for creating flowcharts, mind maps, and more. Edraw\nPenpot: An open-source design and prototyping platform. Penpot\n\n\n\n12.1.9 Note Taking 📝\n\nEtherpad: A collaborative text editor for real-time document editing. Etherpad\nPrivnote: A tool for creating notes that will self-destruct after being read. Privnote",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "docs/resources.html#reading-materials",
     "href": "docs/resources.html#reading-materials",
-    "title": "10  Resources",
-    "section": "11.2 Reading Materials 📚",
-    "text": "11.2 Reading Materials 📚\n\nSupply Chain Management: Strategy, Planning, and Operation by Sunil Chopra and Peter Meindl: A comprehensive guide to understanding supply chain management principles and practices.\nThe Goal: A Process of Ongoing Improvement by Eliyahu M. Goldratt and Jeff Cox: A novel that teaches the principles of process improvement in a manufacturing environment.\nLogistics & Supply Chain Management by Martin Christopher: An essential book for understanding the complexities and strategies involved in logistics and supply chain management.\nAI Superpowers: China, Silicon Valley, and the New World Order by Kai-Fu Lee: A book exploring the future of artificial intelligence and its impact on various industries, including supply chains.\nScrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland: An insightful book on the Scrum methodology and how it can be applied to enhance productivity and project management.",
+    "title": "11  Resources",
+    "section": "12.2 Reading Materials 📚",
+    "text": "12.2 Reading Materials 📚\n\nSupply Chain Management: Strategy, Planning, and Operation by Sunil Chopra and Peter Meindl: A comprehensive guide to understanding supply chain management principles and practices.\nThe Goal: A Process of Ongoing Improvement by Eliyahu M. Goldratt and Jeff Cox: A novel that teaches the principles of process improvement in a manufacturing environment.\nLogistics & Supply Chain Management by Martin Christopher: An essential book for understanding the complexities and strategies involved in logistics and supply chain management.\nAI Superpowers: China, Silicon Valley, and the New World Order by Kai-Fu Lee: A book exploring the future of artificial intelligence and its impact on various industries, including supply chains.\nScrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland: An insightful book on the Scrum methodology and how it can be applied to enhance productivity and project management.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "docs/resources.html#inspiring-videos",
     "href": "docs/resources.html#inspiring-videos",
-    "title": "10  Resources",
-    "section": "11.3 Inspiring Videos 🎥",
-    "text": "11.3 Inspiring Videos 🎥\n\nHow Wolves Change Rivers: An incredible story about the impact of reintroducing wolves to Yellowstone National Park. \nSimon Sinek: How Great Leaders Inspire Action: A talk on the concept of “Start With Why” and inspiring leadership. \nRSA ANIMATE: Drive: The surprising truth about what motivates us: An animated version of Dan Pink’s talk on motivation. \nThe Power of Vulnerability - Brené Brown: Research on vulnerability and its importance in fostering innovation. \nThe Value of Supply Chain Management: A comprehensive overview of the importance of supply chains in today’s economy. \nThe Power of Data in Supply Chains: How data analytics is transforming the supply chain industry. \nInside the Amazon Warehouse: An inside look at the logistics and operations of Amazon’s fulfillment centers. \nThe Future of AI in Supply Chain Management: Exploring the potential of AI to revolutionize supply chains.",
+    "title": "11  Resources",
+    "section": "12.3 Inspiring Videos 🎥",
+    "text": "12.3 Inspiring Videos 🎥\n\nHow Wolves Change Rivers: An incredible story about the impact of reintroducing wolves to Yellowstone National Park. \nSimon Sinek: How Great Leaders Inspire Action: A talk on the concept of “Start With Why” and inspiring leadership. \nRSA ANIMATE: Drive: The surprising truth about what motivates us: An animated version of Dan Pink’s talk on motivation. \nThe Power of Vulnerability - Brené Brown: Research on vulnerability and its importance in fostering innovation. \nThe Value of Supply Chain Management: A comprehensive overview of the importance of supply chains in today’s economy. \nThe Power of Data in Supply Chains: How data analytics is transforming the supply chain industry. \nInside the Amazon Warehouse: An inside look at the logistics and operations of Amazon’s fulfillment centers. \nThe Future of AI in Supply Chain Management: Exploring the potential of AI to revolutionize supply chains.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "docs/resources.html#conclusion",
     "href": "docs/resources.html#conclusion",
-    "title": "10  Resources",
-    "section": "11.4 Conclusion",
-    "text": "11.4 Conclusion\nThese resources are designed to support your journey in the Value Chain Hackers program. By utilizing these tools, platforms, reading materials, and videos, you’ll be well-equipped to tackle the challenges and opportunities in supply chain management. Let’s make the most of these resources to innovate and drive impactful change in the supply chain industry!",
+    "title": "11  Resources",
+    "section": "12.4 Conclusion",
+    "text": "12.4 Conclusion\nThese resources are designed to support your journey in the Value Chain Hackers program. By utilizing these tools, platforms, reading materials, and videos, you’ll be well-equipped to tackle the challenges and opportunities in supply chain management. Let’s make the most of these resources to innovate and drive impactful change in the supply chain industry!",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "docs/summary.html",
     "href": "docs/summary.html",
-    "title": "11  Summary",
+    "title": "12  Summary",
     "section": "",
-    "text": "12 Summary",
+    "text": "13 Summary",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
     "objectID": "docs/summary.html#reflecting-on-our-journey",
     "href": "docs/summary.html#reflecting-on-our-journey",
-    "title": "11  Summary",
-    "section": "12.1 Reflecting on Our Journey 🚀",
-    "text": "12.1 Reflecting on Our Journey 🚀\nAs we come to the end of this onboarding documentation, let’s take a moment to reflect on the journey ahead with the Value Chain Hackers program. This program is designed to equip you with the skills, knowledge, and resources needed to make a significant impact in the field of supply chain management.",
+    "title": "12  Summary",
+    "section": "13.1 Reflecting on Our Journey 🚀",
+    "text": "13.1 Reflecting on Our Journey 🚀\nAs we come to the end of this onboarding documentation, let’s take a moment to reflect on the journey ahead with the Value Chain Hackers program. This program is designed to equip you with the skills, knowledge, and resources needed to make a significant impact in the field of supply chain management.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
     "objectID": "docs/summary.html#key-takeaways",
     "href": "docs/summary.html#key-takeaways",
-    "title": "11  Summary",
-    "section": "12.2 Key Takeaways",
-    "text": "12.2 Key Takeaways\n\n12.2.1 Embracing Innovation 🌟\nAt the heart of Value Chain Hackers is a commitment to innovation. We leverage cutting-edge tools, methodologies, and technologies to tackle real-world supply chain challenges. From AI integration to Agile-Scrum methodologies, we are always pushing the boundaries of what’s possible.\n\n\n12.2.2 Collaborative Learning 🤝\nCollaboration is a cornerstone of our approach. By working closely with peers, mentors, and industry experts, you’ll gain diverse perspectives and insights. Our digital lab ensures that collaboration happens seamlessly, no matter where you are.\n\n\n12.2.3 Real-World Impact 🌍\nEvery project you undertake here is designed to have a real-world impact. You’ll be working on practical problems, developing solutions that can be implemented in the industry. This hands-on experience is invaluable in preparing you for your future career.\n\n\n12.2.4 Continuous Improvement 🔄\nThe Agile-Scrum framework emphasizes continuous improvement. Through regular feedback, retrospectives, and iterative development, you’ll constantly refine your skills and solutions. This mindset of continuous learning and adaptation is crucial in today’s fast-paced world.\n\n\n12.2.5 Community and Support 🧑‍🤝‍🧑\nYou are not alone in this journey. The Value Chain Hackers community is here to support you every step of the way. From mentors providing guidance to peers offering collaboration, you have a network that is dedicated to your success.",
+    "title": "12  Summary",
+    "section": "13.2 Key Takeaways",
+    "text": "13.2 Key Takeaways\n\n13.2.1 Embracing Innovation 🌟\nAt the heart of Value Chain Hackers is a commitment to innovation. We leverage cutting-edge tools, methodologies, and technologies to tackle real-world supply chain challenges. From AI integration to Agile-Scrum methodologies, we are always pushing the boundaries of what’s possible.\n\n\n13.2.2 Collaborative Learning 🤝\nCollaboration is a cornerstone of our approach. By working closely with peers, mentors, and industry experts, you’ll gain diverse perspectives and insights. Our digital lab ensures that collaboration happens seamlessly, no matter where you are.\n\n\n13.2.3 Real-World Impact 🌍\nEvery project you undertake here is designed to have a real-world impact. You’ll be working on practical problems, developing solutions that can be implemented in the industry. This hands-on experience is invaluable in preparing you for your future career.\n\n\n13.2.4 Continuous Improvement 🔄\nThe Agile-Scrum framework emphasizes continuous improvement. Through regular feedback, retrospectives, and iterative development, you’ll constantly refine your skills and solutions. This mindset of continuous learning and adaptation is crucial in today’s fast-paced world.\n\n\n13.2.5 Community and Support 🧑‍🤝‍🧑\nYou are not alone in this journey. The Value Chain Hackers community is here to support you every step of the way. From mentors providing guidance to peers offering collaboration, you have a network that is dedicated to your success.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
     "objectID": "docs/summary.html#next-steps",
     "href": "docs/summary.html#next-steps",
-    "title": "11  Summary",
-    "section": "12.3 Next Steps",
-    "text": "12.3 Next Steps\n\nEngage with the Community: Join our communication channels on Discord and stay connected with your peers and mentors.\nDive into Projects: Start working on your assigned projects, using the tools and resources provided to make meaningful progress.\nSeek Feedback: Regularly engage with your mentors and peers for feedback and insights to improve your work.\nParticipate Actively: Take part in all scheduled activities, from SCRUM meetings to hackathons, to make the most of this learning experience.\nReflect and Improve: Use retrospectives and feedback sessions to reflect on your progress and identify areas for improvement.",
+    "title": "12  Summary",
+    "section": "13.3 Next Steps",
+    "text": "13.3 Next Steps\n\nEngage with the Community: Join our communication channels on Discord and stay connected with your peers and mentors.\nDive into Projects: Start working on your assigned projects, using the tools and resources provided to make meaningful progress.\nSeek Feedback: Regularly engage with your mentors and peers for feedback and insights to improve your work.\nParticipate Actively: Take part in all scheduled activities, from SCRUM meetings to hackathons, to make the most of this learning experience.\nReflect and Improve: Use retrospectives and feedback sessions to reflect on your progress and identify areas for improvement.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
     "objectID": "docs/summary.html#final-thoughts",
     "href": "docs/summary.html#final-thoughts",
-    "title": "11  Summary",
-    "section": "12.4 Final Thoughts",
-    "text": "12.4 Final Thoughts\nThe Value Chain Hackers program is more than just a learning experience; it’s an opportunity to make a difference. By harnessing the power of collaboration, innovation, and continuous improvement, you’ll develop solutions that can transform the supply chain industry. We’re excited to see the amazing things you’ll achieve and the impact you’ll make.\nWelcome aboard, and let’s hack the value chain together!\nChristiaan Verhoef Value Chain Hackers Leader",
+    "title": "12  Summary",
+    "section": "13.4 Final Thoughts",
+    "text": "13.4 Final Thoughts\nThe Value Chain Hackers program is more than just a learning experience; it’s an opportunity to make a difference. By harnessing the power of collaboration, innovation, and continuous improvement, you’ll develop solutions that can transform the supply chain industry. We’re excited to see the amazing things you’ll achieve and the impact you’ll make.\nWelcome aboard, and let’s hack the value chain together!\nChristiaan Verhoef Value Chain Hackers Leader",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "docs/references.html",
-    "href": "docs/references.html",
-    "title": "12  References",
-    "section": "",
-    "text": "13 References\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>References</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html",
-    "href": "docs/ai/index.html",
-    "title": "7  Supply Chain Mapping",
-    "section": "",
-    "text": "7.1 Map Supply Chains using ontologies\nExtracting knowledge from large text documents is not a single step. To retrieve valuable information from these a large document or corpus needs to be chuncked and the task needs to be subdivided in multiple sub-tasks.\ngraph LR\nstyle PDF fill:#008000, stroke:#000000\nstyle Crawling fill:#ffa500, stroke:#000000\nstyle SEC fill:#ff0000, stroke:#000000\nstyle Wikipedia fill:#ffa500, stroke:#000000\nstyle DuckDuckGo fill:#ffa500, stroke:#000000\nstyle Store fill:#ffff00, stroke:#000000\nstyle Ingestion fill:#008000, stroke:#000000\nstyle Transform fill:#ffff00, stroke:#000000\nstyle Extract fill:#008000, stroke:#000000\nstyle LLM fill:#008000, stroke:#000000\nstyle IndexGraph fill:#ffa500, stroke:#000000\nstyle IndexFact fill:#ffa500, stroke:#000000\nstyle Neo4j fill:#ffa500, stroke:#000000\nstyle Sqlite fill:#ffff00, stroke:#000000\nstyle Markdown fill:#008000, stroke:#000000\nstyle Faiss fill:#ffa500, stroke:#000000\nstyle Chroma fill:#008000, stroke:#000000\nstyle RAG fill:#ffff00, stroke:#000000\nstyle UIAI fill:#ffa500, stroke:#000000\nstyle Query fill:#ffa500, stroke:#000000\nstyle Retrievers fill:#ffa500, stroke:#000000\nstyle Results fill:#ffa500, stroke:#000000\nstyle Visualize fill:#ffa500, stroke:#000000\nstyle Embeddings fill:#ffa500, stroke:#000000\nstyle Structurize fill:#ffa500, stroke:#000000\n\nsubgraph Collect\n    PDF[PDF\\nannual reports] --&gt; Store\n    Crawling[Crawling:\\nWeb Site\\nBrand Site\\nProduct Pages] --&gt; Store\n    SEC[US SEC\\nFilings\\n10-K\\n10-Q] --&gt; Store\n    Wikipedia[Wiki\\nCompany Pages\\nIngredients\\nChemicals] --&gt; Store\n    DuckDuckGo[Search\\nDuckDuckGo] --&gt; Store\n    Store --&gt; Ingestion[Processing\\nIngestion]\nend\n\nsubgraph Ingest\n    Ingestion --&gt; Transform &lt;--&gt; Extract[Extract:\\nNodes, Edges]\n    Transform &lt;--&gt; Structurize[Structurize:\\nCSV, JSON, Markdown]\n    Transform --&gt; Embeddings\n    Structurize --&gt; Knowledge\nend\n\nsubgraph Knowledge\n    Transform --&gt; LLM\n    Extract &lt;--&gt; IndexGraph\n    Extract &lt;--&gt; IndexFact\n    LLM --&gt; Structurize\nend\n\nRAG --&gt; Retrievers\n\nsubgraph GraphDatabase\n    IndexGraph[Graph\\nNodes\\nLinks] --&gt; Neo4j \n    RAG --&gt; Neo4j\nend\n\nsubgraph FactDatabase\n    IndexFact --&gt; Sqlite \n    IndexFact --&gt; Markdown\n    Markdown --&gt; RAG\n    Sqlite --&gt; RAG\nend\n\nsubgraph VectorStores\n    Embeddings --&gt; Faiss\n    Embeddings --&gt; Chroma\n    Faiss --&gt; RAG\n    Chroma --&gt; RAG\nend\n\nsubgraph UI\n    UIAI --&gt; Query --&gt; Retrievers --&gt; Results --&gt; Visualize\n    Query --&gt; Visualize\nend",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html#chunks-chunkin-a-large-document-in-pieces",
-    "href": "docs/ai/index.html#chunks-chunkin-a-large-document-in-pieces",
-    "title": "7  Supply Chain Mapping",
-    "section": "7.2 Chunks : Chunkin a large document in pieces",
-    "text": "7.2 Chunks : Chunkin a large document in pieces\nThis step will take a large document and chuck it in parts using some overlap to ensure that paragraph that would be cut in their middle are also present in the next chunk of text.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html#preprocess-remove-the-grease",
-    "href": "docs/ai/index.html#preprocess-remove-the-grease",
-    "title": "7  Supply Chain Mapping",
-    "section": "7.3 Preprocess : Remove the grease",
-    "text": "7.3 Preprocess : Remove the grease\nThis step will tranform the larger text chunks to sentences that are focused on facts, named entities, take-aways and essential points removing the grease of what is not relevant to the extraction process, but present in the textual form of the document.\nPre-Process Prompt",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html#extract-get-tuples-of-knowledge-from-the-text",
-    "href": "docs/ai/index.html#extract-get-tuples-of-knowledge-from-the-text",
-    "title": "7  Supply Chain Mapping",
-    "section": "7.4 Extract : Get tuples of knowledge from the text",
-    "text": "7.4 Extract : Get tuples of knowledge from the text\nWith the reduced text now the model will attempt to make tuples and nodes according to the ontology. Here too divide and conquer will be used, in order to reduce hallucianations it’s better to invoke the model multiple times using a subset of the ontlogy each time. This will yield better results and avoid the model to try to makeup nodes for each class of the ontology.\nExtracting Prompt",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html#validate-check-facts-deduplicate-ensure-proper-syntax",
-    "href": "docs/ai/index.html#validate-check-facts-deduplicate-ensure-proper-syntax",
-    "title": "7  Supply Chain Mapping",
-    "section": "7.5 Validate : Check facts, deduplicate ensure proper syntax",
-    "text": "7.5 Validate : Check facts, deduplicate ensure proper syntax\nNow we have extracted nodes, we will invoke antoher model to do a quality check on each node, by adding a rag on the actual document this step is able to search back in the document and coroborate different pieces of the document to make the most complete set of tuples and nodes, suppressing normally any hallucinated facts that might have produced by previous steps.\nValidation Prompt",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html#ingest-incorporate-tuples-and-nodes-to-the-global-graph",
-    "href": "docs/ai/index.html#ingest-incorporate-tuples-and-nodes-to-the-global-graph",
-    "title": "7  Supply Chain Mapping",
-    "section": "7.6 Ingest : Incorporate tuples and nodes to the global graph",
-    "text": "7.6 Ingest : Incorporate tuples and nodes to the global graph\nWith our appured nodes being now filtered and checked for quality we will now query the graph for each of them and add them if they are not a perfect duplicate and reject the nodes that might be too similar using cosine similarity and clustering techniques.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
-    ]
-  },
-  {
-    "objectID": "docs/ai/index.html#technical-budget",
-    "href": "docs/ai/index.html#technical-budget",
-    "title": "7  Supply Chain Mapping",
-    "section": "7.7 Technical Budget",
-    "text": "7.7 Technical Budget\ntechnical budget",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supply Chain Mapping</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
@@ -677,6 +667,16 @@
     "text": "13.0.1 13-06-2024 planning\n\nDate: june 13, 2024\nDescription: This presentation coveres the planning to do the first infrastructure launch\nView Slides\n\n\n\n13.0.2 30-05-2024 Planning\n\nDate: May 30, 2024\nDescription: planning from Sprint 1 with sebastien\nView Slides\n\n\n\n13.0.3 22-05-2024 presentation\n\nDate: May 30, 2024\nDescription: This presentation covers the planning phase for our upcoming projects.\nView Slides\n\ngraph TD\nstyle Requirements fill:#ffa500, stroke:#000000\nstyle Backlog fill:#ffff00, stroke:#000000\nstyle SprintPlanning fill:#ffa500, stroke:#000000\nstyle Sprint fill:#008000, stroke:#000000\nstyle DailyScrum fill:#ffa500, stroke:#000000\nstyle Development fill:#008000, stroke:#000000\nstyle Testing fill:#008000, stroke:#000000\nstyle Review fill:#ffa500, stroke:#000000\nstyle Retrospective fill:#ffa500, stroke:#000000\nstyle ProductRelease fill:#ff0000, stroke:#000000\n\nsubgraph AgileDevelopment\n    Requirements[Requirements] --&gt; Backlog[Product Backlog]\n    Backlog --&gt; SprintPlanning[Sprint Planning]\n    SprintPlanning --&gt; Sprint[Sprint]\n    Sprint --&gt; DailyScrum[Daily Scrum]\n    Sprint --&gt; Development[Development]\n    Development --&gt; Testing[Testing]\n    Testing --&gt; Review[Sprint Review]\n    Review --&gt; Retrospective[Sprint Retrospective]\n    Retrospective --&gt; Backlog\n    Review --&gt; ProductRelease[Product Release]\nend",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Presentations</span>"
+    ]
+  },
+  {
+    "objectID": "docs/references.html",
+    "href": "docs/references.html",
+    "title": "14  References",
+    "section": "",
+    "text": "15 References\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]
