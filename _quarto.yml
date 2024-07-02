@@ -21,6 +21,7 @@ book:
     - docs/presentations/presentations.qmd
     - docs/references.qmd
     - docs/Linkedin-strategy.qmd
+    - docs/value-proposition.qmd
 
 bibliography: docs/references.bib
 
