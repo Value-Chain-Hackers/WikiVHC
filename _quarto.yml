@@ -11,6 +11,7 @@ book:
     - docs/why.qmd
     - docs/how.qmd
     - docs/what.qmd
+    - docs/memorandum.qmd
     - docs/tools.qmd
     - docs/ai/index.qmd
     - docs/student-flow.qmd
@@ -22,6 +23,7 @@ book:
     - docs/references.qmd
     - docs/Linkedin-strategy.qmd
     - docs/value-proposition.qmd
+    - docs/Company-policy.qmd
 
 bibliography: docs/references.bib
 
