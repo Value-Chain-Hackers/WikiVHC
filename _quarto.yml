@@ -17,6 +17,7 @@ book:
     - docs/student-flow.qmd
     - docs/scrum-process.qmd
     - docs/roles.qmd
+    - docs/Webflowui-Guide.qmd
     - docs/resources.qmd
     - docs/summary.qmd
     - docs/presentations/presentations.qmd
